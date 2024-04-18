@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 body{
-background-image: url('./assets/images/imagepixel1.webp');
+background-image: url('./assets/images/imagepixel2.webp');
 background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
