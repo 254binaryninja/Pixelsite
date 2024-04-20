@@ -1,4 +1,6 @@
-import '../assets/css/home.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faHeart } from '@fortawesome/free-solid-svg-icons';
+
 export default function Home() {
     return(
         <div className='font-forum text-cyan-50'>
@@ -20,6 +22,27 @@ export default function Home() {
            <div className='mt-10'>
                  <h4 className='flex justify-center text-3xl font-semibold underline'>Our Approach</h4>
                  <p className='justify-center max-w-md mx-auto text-2xl'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam non, dolorum vitae possimus, vero magni reiciendis expedita in alias earum nisi, quis dolores ullam doloribus voluptas consectetur exercitationem! Expedita, magni.</p>
+           </div>
+           <div className='mt-10'>
+              <div className='flex '>
+                 <h3 className=' justify-start text-3xl font-semibold'>How do you want us to help ? </h3>
+                 </div>
+                 <div className='flex'>
+                   <ul className='list-disc'>
+                        <li>Item1</li>
+                        <li>Item2</li>
+                        <li>Item3</li>
+                        <li>Item3</li>
+                   </ul>
+                    </div>
+                    
+                <div className='flex'>
+                        <h5 className='justify-center max-w-md mx-auto text-2xl underline'>Testimonials</h5>
+                             </div>
+                             <div className='flex'>
+                        <p className='justify-center max-w-md mx-auto text-2xl'>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, quibusdam? Quidem a enim sint sed molestias repellat soluta in consectetur excepturi, maiores iste delectus eos autem earum dolorem aliquam sapiente."
+                           Warren Oriya</p>
+                             </div>         
            </div>
         </div>
     )
