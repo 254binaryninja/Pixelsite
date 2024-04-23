@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import '../assets/css/card.css'
 export default  function Company(){
   return(
-    <div class="mt-60 text-cyan-50 font-forum text-lg sm:text-base md:text-lg lg:text-xl">
+    <div class="mt-60 text-cyan-50 text-lg sm:text-base md:text-lg lg:text-xl">
       
            <div className='mt-20'>
                  <h4 className='flex justify-center  font-semibold underline'>Our History</h4>

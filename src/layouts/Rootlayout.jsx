@@ -6,16 +6,16 @@ export default function RootLayout(){
 
         
     return (
-        <>
+        <div className="font-audiowide">
         
-            
+        
             <div class="absolute top-0 left-0 w-16 md:w-32 lg:w-48 ">
                 <img src="src\assets\logo\pixellogo.png" alt="" />
             </div>
 
-            <nav className="absolute top-0 right-0 block sm:inline">
-                <div class="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
-                    <NavLink to="/" className="text-gray-800 dark:text-gray-200 border-b-2 border-blue-500 mx-1.5 sm:mx-6">
+            <nav className="absolute top-5 right-0 block sm:inline">
+                <div class="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-blue-400">
+                    <NavLink to="/" className="text-gray-800 dark:text-blue-400  mx-1.5 sm:mx-6">
                         Home
                     </NavLink>
 
@@ -41,7 +41,7 @@ export default function RootLayout(){
                     </NavLink>
                 </div>
             </nav>
-            <main>
+            <main className="mt-0">
                 <Outlet />
             </main>
             
@@ -300,6 +300,6 @@ export default function RootLayout(){
   </div>
 </footer> 
 
-        </>
+        </div>
     );
 }

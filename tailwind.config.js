@@ -2,8 +2,8 @@
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: { 
-    fontFamily:{
-      'forum':['Forum','sans-serif'],
+    fontFamily: {
+      'audiowide': ['Audiowide', 'cursive'],
     },
     listStyleType: {
       none: 'none',

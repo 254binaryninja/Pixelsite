@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import '../assets/css/services.css'
 export default function Services(){
     return(
-        <div className="mt-60 text-cyan-50 font-forum text-lg sm:text-base md:text-lg lg:text-xl">
+        <div className="mt-60 text-cyan-50  text-lg sm:text-base md:text-lg lg:text-xl">
             <div className='justify-center max-w-md mx-auto mb-10'>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, exercitationem dolorum rerum facere laborum aliquam quod quo qui omnis nihil, eligendi at inventore voluptatem et ipsa ratione vero modi itaque!
