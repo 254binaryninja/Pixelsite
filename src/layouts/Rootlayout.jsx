@@ -1,8 +1,15 @@
 import { NavLink,Outlet } from "react-router-dom";
+import {useEffect,useState} from 'react';
+//loader 
 import '../assets/css/root.css'
 export default function RootLayout(){
+    
+
+        
     return (
         <>
+        
+            
             <div class="absolute top-0 left-0 w-16 md:w-32 lg:w-48 ">
                 <img src="src\assets\logo\pixellogo.png" alt="" />
             </div>
@@ -40,7 +47,7 @@ export default function RootLayout(){
             </main>
             
 
-<footer class="bg-blue-900">
+<footer class="bg-gray-900">
   <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
     <div class="lg:flex lg:items-start lg:gap-8">
       <div class="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
@@ -70,7 +77,7 @@ export default function RootLayout(){
               />
 
               <button
-                class="mt-1 w-full bg-teal-500 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-teal-600 sm:mt-0 sm:w-auto sm:shrink-0"
+                class="mt-1 w-full bg-blue-400 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-blue-400 sm:mt-0 sm:w-auto sm:shrink-0"
               >
                 Sign Up
               </button>
@@ -293,6 +300,7 @@ export default function RootLayout(){
     </div>
   </div>
 </footer> 
+
         </>
     );
 }
