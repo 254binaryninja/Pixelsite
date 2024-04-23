@@ -5,7 +5,7 @@ export default function Home() {
         <div className='font-forum text-cyan-50 text-lg sm:text-base md:text-lg lg:text-xl'>
             <motion.div
             initial={{x:500}}
-            whileInView={{x:-70}}
+             animate={{x:-40}}
             transition={{duration:2.5,ease:"easeOut"}}>
             <h1 className='flex justify-center mt-20 text-5xl semibold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-500'>PIXEL SURGE</h1>
                 <h2 className='flex justify-center  text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-300 '>DESIGNERS</h2>
@@ -27,10 +27,7 @@ export default function Home() {
                     </motion.div>
                    
                   </div>
-            <motion.div
-            initial={{y:0}}
-            whileInView={{y:40}}
-            transition={{duration:4.5,ease:"easeOut"}}>
+        
            <div className='mt-20'>
                  <h4 className='flex justify-center  font-semibold underline'>Our Approach</h4>
                  <p className='justify-center max-w-md mx-auto '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam non, dolorum vitae possimus, vero magni reiciendis expedita in alias earum nisi, quis dolores ullam doloribus voluptas consectetur exercitationem! Expedita, magni.</p>
@@ -56,7 +53,7 @@ export default function Home() {
                            Warren Oriya</p>
                              </div>         
            </div>
-           </motion.div>
+        
         </div>
     )
 }
