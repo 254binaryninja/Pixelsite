@@ -1,5 +1,4 @@
 import { NavLink,Outlet } from "react-router-dom";
-import {useEffect,useState} from 'react';
 //loader 
 import '../assets/css/root.css'
 export default function RootLayout(){
