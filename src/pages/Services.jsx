@@ -1,6 +1,12 @@
 import { motion } from "framer-motion"
+import { useState } from "react"
+import { Link } from "react-router-dom"
 import '../assets/css/services.css'
+
+//binding
+Modal.setAppElement('#root')
 export default function Services(){
+   
     return(
         <div className="mt-60 text-cyan-50  text-lg sm:text-base md:text-lg lg:text-xl">
             <div className='justify-center max-w-md mx-auto mb-10'>
@@ -12,6 +18,7 @@ export default function Services(){
   <p class="container-title">Here are our services</p>
 
   <div class="gradient-cards">
+    <Link to="/Form" >
     <div class="card">
       <div class="container-card bg-green-box">
         <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -30,11 +37,13 @@ export default function Services(){
             </radialGradient>
           </defs>
         </svg>
-        <p class="card-title">Zero-cost Possibilities</p>
+        <p class="card-title">Web trafficking</p>
         <p class="card-description">Hubble lets users borrow USDH for a one-time 0.5% fee. No variable rates. No interest charged, ever.</p>
       </div>
     </div>
+    </Link>
 
+    <Link to="/Form" >
     <div class="card">
       <div class="container-card bg-white-box">
         <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -58,11 +67,13 @@ export default function Services(){
             </radialGradient>
           </defs>
         </svg>
-        <p class="card-title">Multi-Asset Collateral</p>
+        <p class="card-title">Marketing</p>
         <p class="card-description">Deposit a variety of assets on Hubble, raise your collateral ratio, and unlock the liquidity in your wallet.</p>
       </div>
     </div>
+    </Link>
 
+    <Link to="/Form" >
     <div class="card">
       <div class="container-card bg-yellow-box">
         <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -80,11 +91,13 @@ export default function Services(){
             </radialGradient>
           </defs>
         </svg>
-        <p class="card-title">Get Yield on Deposits</p>
+        <p class="card-title">Bespoke website</p>
         <p class="card-description">While your collateral is deposited, delegate it to earn the highest yield available in the Solana ecosystem.</p>
       </div>
     </div>
+    </Link>
 
+    <Link to="/Form" >
     <div class="card">
       <div class="container-card bg-blue-box">
       <svg width="80" height="80" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -106,7 +119,7 @@ export default function Services(){
         <p class="card-title">Get up to 11x Leverage</p>
         <p class="card-description">Hubble’s capital-efficient 110% collateral ratio lets users leverage up to 11x on their deposits.</p>
       </div>
-    </div>
+    </div></Link>
   </div>
 </div>
         </div>

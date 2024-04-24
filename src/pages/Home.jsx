@@ -2,16 +2,18 @@ import {motion}from 'framer-motion'
 
 export default function Home() {
     return(
-        <div className='mt-40 text-cyan-50 text-lg sm:text-base md:text-lg lg:text-xl'>
+        <div className='mt-40 text-cyan-50 '>
             <motion.div
-            initial={{opacity:0.4}}
+            initial={{opacity:0.1}}
             whileInView={{opacity:1}}
-            transition={{duration:2.5,ease:"easeOut"}}>
-            <h1 className='flex justify-center mt-20 text-5xl semibold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-500'>PIXEL SURGE</h1>
-                <h2 className='flex justify-center  text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-300 '>DESIGNERS</h2>
+            transition={{duration:2.5,ease:"easeOut"}}
+            className='mb-10'>
+            <h1 className='flex justify-center mt-20 text-8xl  semibold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-500'>PIXEL SURGE</h1>
+                <h2 className='flex justify-center  text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-300 '>DESIGNERS</h2>
                 </motion.div>
+                <div className='text-lg sm:text-base md:text-lg lg:text-xl'>
                 <p className='text-cyan-50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere explicabo molestias voluptatibus ad nemo unde ducimus adipisci quis repellat corporis enim libero dolorem, excepturi facilis error ullam accusamus sequi sint?</p>
-         <div className='mt-10'>
+         <div className='mt-10 mb-4'>
          <div className='flex justify-start'>
                  <h3 className='font-semibold underline'>What we do</h3>
                  </div>
@@ -64,7 +66,7 @@ export default function Home() {
                            Warren Oriya</p>
                              </div>         
            </div>
-        
+            </div>
         </div>
     )
 }
