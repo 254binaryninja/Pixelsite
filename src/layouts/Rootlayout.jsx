@@ -1,6 +1,9 @@
 import { NavLink,Outlet } from "react-router-dom";
+import Modal from 'react-modal'
 //loader 
 import '../assets/css/root.css'
+
+Modal.setAppElement('#root')
 export default function RootLayout(){
     
 
