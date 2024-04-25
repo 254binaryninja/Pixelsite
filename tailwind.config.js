@@ -12,7 +12,21 @@ export default {
       square: 'square',
       roman: 'upper-roman',
     },
-    extend: {},
+    extend: {
+      animation: {
+        'gradient-x': 'gradient-x 15s ease infinite',
+        'gradient-y': 'gradient-y 15s ease infinite',
+        'gradient-xy': 'gradient-xy 15s ease infinite',
+      },
+      keyframes: {
+        'gradient-x': {
+          '0%, 100%': { 'background-size': '200% 200%', 'background-position': 'left center' },
+          '50%': { 'background-size': '200% 200%', 'background-position': 'right center' },
+        },
+        // Define similar keyframes for 'gradient-y' and 'gradient-xy'
+      },
+  
+    },
   },
   plugins: [],
 }
