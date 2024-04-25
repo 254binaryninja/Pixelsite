@@ -3,7 +3,6 @@ import Modal from 'react-modal'
 //loader 
 import '../assets/css/root.css'
 
-Modal.setAppElement('#root')
 export default function RootLayout(){
     
 
@@ -55,7 +54,7 @@ export default function RootLayout(){
       <div class="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
         <div class="col-span-2">
           <div>
-            <h2 class="text-2xl font-bold text-gray-50">Get the latest news!</h2>
+            <h2 class="text-2xl font-bold text-gray-50">Lets do coffee on us </h2>
 
             <p class="mt-4 text-gray-50">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam
@@ -68,22 +67,7 @@ export default function RootLayout(){
           <form class="w-full">
             <label for="UserEmail" class="sr-only"> Email </label>
 
-            <div
-              class="border border-gray-100 p-2 focus-within:ring sm:flex sm:items-center sm:gap-4"
-            >
-              <input
-                type="email"
-                id="UserEmail"
-                placeholder="abcdef@gmail.com"
-                class="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm"
-              />
-
-              <button
-                class="mt-1 w-full bg-blue-400 px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-blue-400 sm:mt-0 sm:w-auto sm:shrink-0"
-              >
-                Sign Up
-              </button>
-            </div>
+           
           </form>
         </div>
 
@@ -283,7 +267,7 @@ export default function RootLayout(){
 
     <div class="mt-8 border-t border-gray-100 pt-8">
       <div class="sm:flex sm:justify-between">
-        <p class="text-xs text-gray-50">&copy; 2024.Pixel Surge. All rights reserved.</p>
+        <p class="text-xs text-gray-50">&copy; 2024.Pixel Surge. All rights reserved.| created by (❁´◡`❁) CHEMIST</p>
 
         <ul class="mt-8 flex flex-wrap justify-start gap-4 text-xs sm:mt-0 lg:justify-end">
           <li>

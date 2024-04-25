@@ -1,10 +1,9 @@
 import { motion } from "framer-motion"
-import { useState } from "react"
 import { Link } from "react-router-dom"
 import '../assets/css/services.css'
 
 //binding
-Modal.setAppElement('#root')
+
 export default function Services(){
    
     return(
@@ -116,7 +115,7 @@ export default function Services(){
             </radialGradient>
           </defs>
         </svg>
-        <p class="card-title">Get up to 11x Leverage</p>
+        <p class="card-title">App development</p>
         <p class="card-description">Hubble’s capital-efficient 110% collateral ratio lets users leverage up to 11x on their deposits.</p>
       </div>
     </div></Link>

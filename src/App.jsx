@@ -9,10 +9,12 @@ import Home from './pages/Home'
 import Company from './pages/Company'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
+import Web from './pages/web'
 //form
 import Formweb from './components/jsx/form'
   //layouts
  import RootLayout from './layouts/Rootlayout'
+
  const router =createBrowserRouter(
   createRoutesFromElements(
     <>
@@ -24,6 +26,7 @@ import Formweb from './components/jsx/form'
       <Route path = "/Contact" element = {<Contact/>}/>
       </Route> 
       <Route path = "/Form" element = {<Formweb/>}/>
+      <Route path = "/Web"  element = {<Web/>}/>
       </>  
   )
  )
