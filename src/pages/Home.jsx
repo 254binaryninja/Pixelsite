@@ -59,7 +59,7 @@ Creating a fully functional website in this digital age has become one of the fa
                  <p className='justify-start'>
                  Here at Pixel Surge Designers we believe in the attention economy, every click, like, and share holds value. Your ability to capture and retain the attention of your target audience directly impacts your business's success. Now, it's not just about what you produce—it's about how you present it to the world. We’ll create a stunning website and create the traffic needed for you
                  </p>
-                 
+                 <div>
                  <a class="p-8 max-w-lg border border-indigo-300 rounded-2xl hover:shadow-xl hover:shadow-indigo-50 flex flex-col items-center"
     href="#">
     <img src="src\assets\images\imagepixel1.webp" class="shadow rounded-lg overflow-hidden border" />
@@ -68,10 +68,11 @@ Creating a fully functional website in this digital age has become one of the fa
         <p class="mt-2 text-gray-600">Is to join our digital revolution and make your business a success. 
         </p>
         <div class="mt-5">
-            <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900"><Link smooth to ="/About" >Know us more </Link> </button>
+            <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white  hover:bg-gray-900"><Link smooth to ="/About" >Know us more </Link> </button>
         </div>
     </div>
 </a>
+</div>
            </div>
            <div className='mt-20'>
            <h4 className='flex justify-center  font-semibold underline'>Our happy clients</h4>
