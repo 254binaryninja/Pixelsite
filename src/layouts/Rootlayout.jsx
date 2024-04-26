@@ -1,4 +1,5 @@
 import { NavLink,Outlet } from "react-router-dom";
+import { motion } from "framer-motion";
 import Modal from 'react-modal'
 //loader 
 import '../assets/css/root.css'
@@ -29,7 +30,7 @@ export default function RootLayout(){
                     </NavLink>
 
                     <NavLink
-                        to="/Services" 
+                        to="/form" 
                         className="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"
                     >
                         Services
@@ -39,7 +40,7 @@ export default function RootLayout(){
                         to="/Contact"
                         className="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"
                     >
-                        Help
+                        Contact
                     </NavLink>
                 </div>
             </nav>
@@ -53,7 +54,7 @@ export default function RootLayout(){
     <div class="lg:flex lg:items-start lg:gap-8">
       <div class="mt-8 grid grid-cols-2 gap-8 lg:mt-0 lg:grid-cols-5 lg:gap-y-16">
         <div class="col-span-2">
-          <div>
+          <div className="">
             <h2 class="text-2xl font-bold text-gray-50">Lets do coffee on us </h2>
 
             <p class="mt-4 text-gray-50">
@@ -61,6 +62,25 @@ export default function RootLayout(){
               molestias.
             </p>
           </div>
+          < motion.div 
+          
+          id="container  mt-100 flex justify-items-center">
+	<div class="steam" id="steam1"> </div>
+	<div class="steam" id="steam2"> </div>
+	<div class="steam" id="steam3"> </div>
+	<div class="steam" id="steam4"> </div>
+
+	<div id="cup">
+		<div id="cup-body">
+			<div id="cup-shade"></div>
+		</div>
+		<div id="cup-handle"></div>
+	</div>
+
+	<div id="saucer"></div>
+
+	<div id="shadow"></div>
+</motion.div>
         </div>
 
         <div class="col-span-2 lg:col-span-3 lg:flex lg:items-end">
@@ -76,19 +96,19 @@ export default function RootLayout(){
 
           <ul class="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" class="text-cyan-50 transition hover:opacity-75"> 1on1 Coaching </a>
+              <a href="#" class="text-cyan-50 transition hover:opacity-75"> Web Traffic </a>
             </li>
 
             <li>
-              <a href="#" class="text-cyan-50 transition hover:opacity-75"> Company Review </a>
+              <a href="#" class="text-cyan-50 transition hover:opacity-75"> Web Design </a>
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> Accounts Review </a>
+              <a href="#" class="text-gray-50 transition hover:opacity-75"> App Development </a>
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> HR Consulting </a>
+              <a href="#" class="text-gray-50 transition hover:opacity-75"> Marketing </a>
             </li>
 
             <li>
@@ -106,11 +126,14 @@ export default function RootLayout(){
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> Meet the Team </a>
+              <a href="#" class="text-gray-50 transition hover:opacity-75"> Team </a>
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> Accounts Review </a>
+              <a href="#" class="text-gray-50 transition hover:opacity-75"> Marketing </a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-50 transition hover:opacity-75"> Process </a>
             </li>
           </ul>
         </div>
@@ -155,19 +178,7 @@ export default function RootLayout(){
           </ul>
         </div>
 
-        <div class="col-span-2 sm:col-span-1">
-          <p class="font-medium text-gray-50">Downloads</p>
-
-          <ul class="mt-6 space-y-4 text-sm">
-            <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> Marketing Calendar </a>
-            </li>
-
-            <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> SEO Infographics </a>
-            </li>
-          </ul>
-        </div>
+       
 
         <ul class="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
           <li>

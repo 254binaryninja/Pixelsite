@@ -1,21 +1,30 @@
 import { motion } from "framer-motion"
 import { Link } from "react-router-dom"
-
+import { HashLink } from "react-router-hash-link"
 
 //binding
 
 export default function Services(){
+    
    
     return(
         <div className="mt-60 text-cyan-50  text-lg sm:text-base md:text-lg lg:text-xl">
-            <div className='justify-center max-w-md mx-auto mb-10'>
+            <motion.div 
+            initial={{x:-100}}
+            whileInView={{x:0}}
+            transition={{duration:2.5,ease:"easeIn"}}
+            className='justify-center max-w-md mx-auto mb-10'>
                 <p>
                 At Pixel Surge Designers, your success is our priority. We believe in a collaborative approach, where you're not just a client but an integral part of the team. Together, we'll navigate the digital landscape, overcome challenges, and capitalize on opportunities to take your business to new heights. With our seamless operational approach and unwavering dedication, we're confident that we can make a significant impact on your business and help you achieve your goals in the digital realm.
                 </p>
-            </div>
+            </motion.div>
          <div class="">
   <p class="text-2xl flex justify-center">Here are our services</p>
-  <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+  <motion.div 
+  initial={{y:100}}
+  whileInView={{y:0}}
+  transition={{duration:3.5,ease:"easeIn"}}
+  class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
   <div class="relative flex  flex-col justify-center m-10 overflow-hidden py-6 sm:py-12">
     <div
         class="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
@@ -33,7 +42,7 @@ export default function Services(){
             </div>
             <div class="pt-5 text-base font-semibold leading-7">
                 <p>
-                <Link to ="/form"class="text-sky-500 transition-all duration-300 group-hover:text-white">Web Design
+                <Link smooth to ="/Web/#section-2"class="text-sky-500 transition-all duration-300 group-hover:text-white">Web Design
                         &rarr;
                     </Link>
                 </p>
@@ -59,9 +68,9 @@ export default function Services(){
             </div>
             <div class="pt-5 text-base font-semibold leading-7">
                 <p>
-                    <Link to ="/form"class="text-sky-500 transition-all duration-300 group-hover:text-white">Web Traffic
+                    <HashLink smooth to ="/Web/#section-1"class="text-sky-500 transition-all duration-300 group-hover:text-white">Web Traffic
                         &rarr;
-                    </Link>
+                    </HashLink>
                 </p>
             </div>
         </div>
@@ -85,7 +94,7 @@ export default function Services(){
             </div>
             <div class="pt-5 text-base font-semibold leading-7">
                 <p>
-                <Link to ="/form"class="text-sky-500 transition-all duration-300 group-hover:text-white">Marketing
+                <Link  smooth to ="/Web/#section-3"class="text-sky-500 transition-all duration-300 group-hover:text-white">Marketing
                         &rarr;
                     </Link>
                 </p>
@@ -110,14 +119,14 @@ export default function Services(){
             </div>
             <div class="pt-5 text-base font-semibold leading-7">
                 <p>
-                <Link to ="/form"class="text-sky-500 transition-all duration-300 group-hover:text-white">App development
+                <Link  smooth to ="/Web/#section-4"class="text-sky-500 transition-all duration-300 group-hover:text-white">App development
                         &rarr;
                     </Link>
                 </p>
             </div>
         </div>
     </div>
-</div></div>
+</div></motion.div>
 
   </div>
 </div>

@@ -28,15 +28,16 @@ import Teams from './components/jsx/Teams'
       <Route index element = {<Home/>}/>
       <Route path = "/Company" element = {<Company/>}/>
       <Route path = "/Services" element = {<Services/>}/>
-      <Route path = "/Contact" element = {<Contact/>}/>
       <Route path = "/About"   element = {<About/>}/>
       <Route path = "/Marketing" element = {<Market/>}/>
       <Route path = "/Solution" element = {<Solution/>}/>
       <Route path = "/Teams"    element = {<Teams/>}/>
       <Route path = "/Process" element = {<Process/>}/>
+      <Route path = "/Contact" element = {<Contact/>}/>
       </Route> 
       <Route path = "/Form" element = {<Formweb/>}/>
       <Route path = "/Web"  element = {<Web/>}/>
+     
       </>  
   )
  )

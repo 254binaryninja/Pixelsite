@@ -5,16 +5,24 @@ export default  function Company(){
   return(
     <div class="mt-60 text-cyan-50 text-lg sm:text-base md:text-lg lg:text-xl">
       
-           <div className='mt-10 mb-0'>
+           <motion.div
+           initial ={{opacity:0.4}}
+           whileInView={{opacity:1}}
+           transition={{duration:3,ease:"easeOut"}}
+            className='mt-10 mb-0'>
                  <h4 className='flex justify-center  font-semibold underline'>Our History</h4>
                  <p className='justify-center  mx-auto '>From a spark of creativity and a relentless drive for innovation, our company emerged as a beacon in the digital landscape. Founded by a team of visionary entrepreneurs, we quickly distinguished ourselves with our cutting-edge web design and strategic marketing solutions. Our journey has been marked by rapid growth and transformative success stories, propelling brands into the digital future. As we continue to evolve and expand our horizons, our commitment to excellence remains unwavering, fueling our mission to redefine the boundaries of the digital realm</p>
-           </div>
+           </motion.div>
            <div class="background"></div>
     <div class="background-texture"></div>
 
     <section class="carousel">
       <h2 class="font-bold underline text-cyan-400">Our Features</h2>
-      <div class="carousel__container">
+      <motion.div
+      initial = {{y:100}}
+      whileInView={{y:0}}
+      transition={{duration:3,ease:"easeOut"}}
+      class="carousel__container">
         <Link to = "/About">
         <div class="carousel-item m-8">
           <img
@@ -93,7 +101,7 @@ export default  function Company(){
        
 
        
-      </div>
+      </motion.div>
     </section>
                    
     </div>

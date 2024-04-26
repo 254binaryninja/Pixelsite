@@ -24,7 +24,7 @@ export default function Formweb (){
     return(
          <>
          <div class="form-container justify-center">
-      <form class="form">
+      <form class="form" onSubmit={handleSubmit}>
         <div class="form-group">
           <label for="email">Email</label>
           <input required="" name="email" id="email" type="text"
@@ -44,7 +44,7 @@ export default function Formweb (){
           onChange={(e) => setFormData({ ...formData,place: e.target.value })}
           ></textarea>
         </div>
-        <button type="submit" class="form-submit-btn"><Link to ="/Company">Submit</Link></button>
+        <button type="submit" class="form-submit-btn"><Link to ="/Services">Submit</Link></button>
       </form>
     </div>
          

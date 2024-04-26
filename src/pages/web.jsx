@@ -5,8 +5,10 @@ export default function Web (){
     return(
         <>
         <div className='font-audiowide text-cyan-50'>
-            <div>
-               <div className='bg-gradient-to-r from-blue-700 to-orange-500 via-purple-500 animate-gradient-x'>
+		<div >
+			<div> 
+				
+               <div  className='bg-gradient-to-r from-blue-700 to-orange-500 via-purple-500 animate-gradient-x'>
                   <div className='flex justify-center'><h1 className='text-2xl underline font-semibold'>Web Trafficking</h1></div>
                   <div className='flex flex-wrap mt--40 '><p className='text-2xl md:text-xl justify-end max-w-md whitespace-normal break-words'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi corrupti magni nam nihil unde, 
@@ -15,13 +17,13 @@ export default function Web (){
                     </p>
                     
                     
-       <div className='flex justify-center items-center mt-8'>
+       <div id="section-1" className='flex justify-center items-center mt-8'>
         <p className='text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam at fugiat beatae magni odit consequuntur eaque nulla, exercitationem quaerat assumenda asperiores
          voluptate aliquam sint doloremque saepe nisi recusandae vitae dolor.</p>
        </div>
                     </div>
                     <section className="py-20 dark:bg-gray-100 dark:text-gray-800">
-	<div className="container px-4 mx-auto">
+	<div  className="container px-4 mx-auto">
 		<div className="max-w-2xl mx-auto mb-16 text-center">
 			<span className="font-bold tracking-wider uppercase dark:text-violet-600">Pricing</span>
 			<h2 className="text-4xl font-bold lg:text-5xl">Choose your best plan</h2>
@@ -203,8 +205,9 @@ export default function Web (){
 			</div>
 		</div>
 	</div>
-</section>
-                    <div className='bg-gradient-to-br from-[#070630] to-[#060454]'>
+</section></div>
+       <div >
+                    <div  className='bg-gradient-to-br from-[#070630] to-[#060454]'>
                         <div className='flex justify-items-center'>
                         <div class="animation-container">
 	<div class="lightning-container">
@@ -227,7 +230,7 @@ export default function Web (){
     <div>
         <div>
         <div className='flex justify-center mt-20'><h1 className='text-2xl underline font-semibold'>Marketing</h1></div>
-                  <div className='flex flex-wrap '><div><p className='text-2xl md:text-xl justify-center max-w-md whitespace-normal break-words'>
+                  <div id="section-2" className='flex flex-wrap '><div><p className='text-2xl md:text-xl justify-center max-w-md whitespace-normal break-words'>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi corrupti magni nam nihil unde, 
                     molestias labore quisquam sequi reprehenderit corporis laborum sit repudiandae illo adipisci quae 
                     incidunt quas ipsum repellendus!
@@ -243,11 +246,12 @@ export default function Web (){
                         </div>
                     </div>
                </div>
-            </div>
-            <div className='bg-blue-900'>
+            </div></div>
+			<div >
+            <div  className='bg-blue-900'>
              <div className='flex justify-start'><h2 className='font-bold underline text-3xl mt-20'>Bespoke Websites</h2></div>
-              <div className='flex flex-wrap mt-10'>
-                <div><p className='text-xl'>
+              <div className='flex flex-wrap mt-10 mb-10'>
+                <div id="section-3"><p className='text-xl'>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, vero blanditiis atque praesentium reiciendis iusto iste, 
                 enim ducimus alias illo dicta odit corrupti sunt, porro fugiat delectus itaque magnam dolor?
                 </p></div>
@@ -263,7 +267,7 @@ export default function Web (){
 				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-gray-50">
 					<div className="space-y-2">
 						<h4 className="text-2xl font-bold">Basic</h4>
-						<span className="text-6xl font-bold">Ksh 10,000-50,000</span>
+						<span className="text-3xl font-bold">Ksh 10,000-50,000</span>
 					</div>
 					<p className="mt-3 leading-relaxed dark:text-gray-600">Features</p>
 					<ul className="flex-1 mb-6 dark:text-gray-600">
@@ -299,7 +303,7 @@ export default function Web (){
 				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-violet-600 dark:text-gray-50">
 					<div className="space-y-2">
 						<h4 className="text-2xl font-bold">Standard</h4>
-						<span className="text-6xl font-bold">Ksh 50,000-150,000
+						<span className="text-3xl font-bold">Ksh 50,000-150,000
 							
 						</span>
 					</div>
@@ -332,7 +336,7 @@ export default function Web (){
 				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-gray-50">
 					<div className="space-y-2">
 						<h4 className="text-2xl font-bold">Advanced</h4>
-						<span className="text-6xl font-bold">Ksh 150,000 - 500,000
+						<span className="text-3xl font-bold">Ksh 150,000 - 500,000
 							
 						</span>
 					</div>
@@ -381,17 +385,18 @@ export default function Web (){
 		</div>
 	</div>
 </section>
-            </div>
+            </div></div>
+			<div >
             <div class="container h-70">
-                <div className='flex justify-center'><h1 className='underline font-medium'>App development</h1></div>
+                <div  className='flex justify-center'><h1 className='underline font-medium'>App development</h1></div>
                
                 
-                <div className='flex justify-start'><p className='text-xl'>Lorem ipsum dolor sit, amet consectetur
+                <div id="section-4" className='flex justify-start'><p  className='text-xl'>Lorem ipsum dolor sit, amet consectetur
                  adipisicing elit. Sequi officiis tenetur corrupti repellendus consequuntur neque, earum aliquam cupiditate 
                  praesentium harum optio enim quae exercitationem esse? In doloribus aspernatur magni. Eos.</p></div>
                 <p className='mt-6 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut sequi magni omnis. Corrupti optio esse blanditiis? Magni in libero recusandae aperiam beatae quo similique rem amet, totam id aspernatur?</p>
                 
-</div>
+</div></div>
 
         <footer class="bg-gray-900 mb-0">
   <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
@@ -421,19 +426,19 @@ export default function Web (){
 
           <ul class="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" class="text-cyan-50 transition hover:opacity-75"> 1on1 Coaching </a>
+              <a href="#" class="text-cyan-50 transition hover:opacity-75"> Web Traffic </a>
             </li>
 
             <li>
-              <a href="#" class="text-cyan-50 transition hover:opacity-75"> Company Review </a>
+              <a href="#" class="text-cyan-50 transition hover:opacity-75"> Web Development </a>
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> Accounts Review </a>
+              <a href="#" class="text-gray-50 transition hover:opacity-75"> App Development </a>
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> HR Consulting </a>
+              <a href="#" class="text-gray-50 transition hover:opacity-75"> Marketing </a>
             </li>
 
             <li>
@@ -451,11 +456,14 @@ export default function Web (){
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> Meet the Team </a>
+              <a href="#" class="text-gray-50 transition hover:opacity-75"> Team </a>
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> Accounts Review </a>
+              <a href="#" class="text-gray-50 transition hover:opacity-75"> Marketing </a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-50 transition hover:opacity-75"> Process </a>
             </li>
           </ul>
         </div>
@@ -500,20 +508,7 @@ export default function Web (){
           </ul>
         </div>
 
-        <div class="col-span-2 sm:col-span-1">
-          <p class="font-medium text-gray-50">Downloads</p>
-
-          <ul class="mt-6 space-y-4 text-sm">
-            <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> Marketing Calendar </a>
-            </li>
-
-            <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> SEO Infographics </a>
-            </li>
-          </ul>
-        </div>
-
+       
         <ul class="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
           <li>
             <a

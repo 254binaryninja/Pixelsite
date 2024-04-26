@@ -1,5 +1,5 @@
 import {motion}from 'framer-motion'
-
+import { Link } from 'react-router-dom'
 export default function Home() {
     return(
         <div className='mt-40 text-cyan-50 '>
@@ -35,10 +35,9 @@ export default function Home() {
                  whileInView={{x:0}}
                     transition={{duration:3.5,ease:"easeOut"}}
                  className='flex  md:flex'>
-                 <p className='justify-start '>In today's digital age, a strong online presence is essential for business growth. In Pixel Surge Designers with our expert web design services, we'll create a visually captivating website that not only showcases your brand but also converts visitors into loyal customers. We just don’t target any audience, we embark on a mission to find people who are right for you, those interested in the services you offer.
-                 Drive Traffic, Drive Growth: But it doesn't stop there! With our cutting-edge web traffic services, we'll ensure that your website gets the attention it deserves. By implementing strategies like search engine optimization (SEO) and targeted advertising, we'll drive qualified traffic to your site, boosting visibility and generating leads that will increase sales for Peak Legacy Africa.
+                 <p className='justify-start '>
 
-
+Creating a fully functional website in this digital age has become one of the factors that has helped businesses grow. A website serves as a 24/7 storefront, offering accessibility and visibility to potential customers. However, merely having a website is not enough. Without proper traffic, it can become a liability, a digital asset lost. We make it our goal to make sure your online presence is established our methods are many and efficient ;search engine optimization (SEO),social media marketing,targeted advertising to drive relevant traffic to the website and Email marketing and google ads and many more to boost you in the right way
                  </p> 
                     </motion.div>
                         </div>
@@ -57,21 +56,54 @@ export default function Home() {
 
            <div className='mt-20'>
                  <h4 className='flex justify-center  font-semibold underline'>Our Approach</h4>
-                 <p className='justify-center max-w-md mx-auto '>1.	At Pixel Surge Designers, our operational approach is centred on collaboration and transparency. When you partner with us, the journey begins with crafting a website tailored to your unique needs and preferences. From sleek designs to user-friendly interfaces, we work closely with you to ensure that every aspect of your website reflects your brand identity and resonates with your target audience.</p>
-                 <p className='justify-center mt-4 max-w-md mx-auto '>
-2.	Once the website design is finalized to your satisfaction, we'll set it live upon your approval. This marks the beginning of our web traffic services journey. Depending on the plan you've chosen, we'll kickstart targeted strategies to drive traffic to your website, maximizing its visibility and engagement. Whether it's through search engine optimization (SEO), social media marketing, or pay-per-click (PPC) advertising, we'll implement the right tactics to attract your ideal audience.
-</p>
+                 <p className='justify-start'>
+                 Here at Pixel Surge Designers we believe in the attention economy, every click, like, and share holds value. Your ability to capture and retain the attention of your target audience directly impacts your business's success. Now, it's not just about what you produce—it's about how you present it to the world. We’ll create a stunning website and create the traffic needed for you
+                 </p>
+                 
+                 <a class="p-8 max-w-lg border border-indigo-300 rounded-2xl hover:shadow-xl hover:shadow-indigo-50 flex flex-col items-center"
+    href="#">
+    <img src="src\assets\images\imagepixel1.webp" class="shadow rounded-lg overflow-hidden border" />
+    <div class="mt-8">
+        <h4 class="font-bold text-xl">Our promise </h4>
+        <p class="mt-2 text-gray-600">Is to join our digital revolution and make your business a success. 
+        </p>
+        <div class="mt-5">
+            <button type="button" class="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900"><Link smooth to ="/About" >Know us more </Link> </button>
+        </div>
+    </div>
+</a>
            </div>
+           <div className='mt-20'>
+           <h4 className='flex justify-center  font-semibold underline'>Our happy clients</h4>
+                 <p className='justify-start'>
+                   "Pixel Surge Designers exceeded my expectations with their exceptional service and creative solutions. They took the time to understand my vision and transformed it into a stunning website that perfectly represents my brand. Their attention to detail and responsiveness made the entire process smooth and enjoyable. I highly recommend them for anyone looking for top-notch web design and digital marketing expertise."
+                 </p></div>
+                 <motion.div
+                 initial={{x:0}}
+                 whileInView={{x:120}}
+                 transition={{duration:3,ease:"easeInOut"}}
+                 classname=" flex flex-wrap mx-w-md mx-auto">
+                 <h4 className='mt-10 text-2xl text-green-400  '>Justus Oriya</h4><p className='text-xl'>Assistant Manager Lexus apartments </p>
+           </motion.div>
+
            <div className='mt-10'>
               <div className='flex '>
-                 <h3 className=' justify-start font-semibold'>How do you want us to help ? </h3>
+                 <h3 className=' justify-start font-semibold text-4xl'>How do you want us to help ? </h3>
                  </div>
                  <div className='flex'>
-                   <ul className='list-disc'>
-                        <li>Item1</li>
-                        <li>Item2</li>
-                        <li>Item3</li>
-                        <li>Item3</li>
+                   <ul className='mt-6 list-disc'>
+                        <li><Link to ="/Form" className='m-8'><h1 className='text-2xl text-cyan-400'>Launch Online platform</h1>
+                        <p>Deploying your first ever digital workshop and make it accessible to users worldwide and even locally</p>
+                        </Link></li>
+                        <li><Link smooth to ="/Form" className='m-8'><h2 className='text-2xl text-cyan-400' >Capture the Digital Audience</h2><p>
+                        Engage and retain online users through strategic marketing  content and not just any but the right users.
+                        </p></Link></li>
+                        <li><Link smooth to ="/Form" className='m-8'><h3 className='text-2xl text-cyan-400' >Brand outreach</h3>
+                        <p>Expand the visibility and recognition of your company through targeted marketing efforts </p>
+                        </Link></li>
+                        <li><Link smooth to ="/Form" className='m-8'><h4 className='text-2xl text-cyan-400' >Mobile Application Creation</h4>
+                        <p>Design and develop software specifically tailoured for smart mobile devices.</p>
+                        </Link></li>
                    </ul>
                     </div>
                     
