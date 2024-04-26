@@ -14,6 +14,11 @@ import Web from './pages/web'
 import Formweb from './components/jsx/form'
   //layouts
  import RootLayout from './layouts/Rootlayout'
+import About from './components/jsx/about'
+import Market from './components/jsx/market'
+import Solution from './components/jsx/solution'
+import Process from './components/jsx/process'
+import Teams from './components/jsx/Teams'
 
  const router =createBrowserRouter(
   createRoutesFromElements(
@@ -24,6 +29,11 @@ import Formweb from './components/jsx/form'
       <Route path = "/Company" element = {<Company/>}/>
       <Route path = "/Services" element = {<Services/>}/>
       <Route path = "/Contact" element = {<Contact/>}/>
+      <Route path = "/About"   element = {<About/>}/>
+      <Route path = "/Marketing" element = {<Market/>}/>
+      <Route path = "/Solution" element = {<Solution/>}/>
+      <Route path = "/Teams"    element = {<Teams/>}/>
+      <Route path = "/Process" element = {<Process/>}/>
       </Route> 
       <Route path = "/Form" element = {<Formweb/>}/>
       <Route path = "/Web"  element = {<Web/>}/>

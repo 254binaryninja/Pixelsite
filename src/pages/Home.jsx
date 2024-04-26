@@ -25,7 +25,7 @@ export default function Home() {
   </svg>
 </div>
                 <div className='text-lg sm:text-base md:text-lg lg:text-xl'>
-                <p className='text-cyan-50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere explicabo molestias voluptatibus ad nemo unde ducimus adipisci quis repellat corporis enim libero dolorem, excepturi facilis error ullam accusamus sequi sint?</p>
+                <p className='text-cyan-50'>Welcome to Pixel Surge Designers, where your digital success is our mission! We specialize in creating stunning websites and driving targeted traffic to help businesses thrive in the online world.</p>
          <div className='mt-10 mb-4'>
          <div className='flex justify-start'>
                  <h3 className='font-semibold underline'>What we do</h3>
@@ -35,10 +35,11 @@ export default function Home() {
                  whileInView={{x:0}}
                     transition={{duration:3.5,ease:"easeOut"}}
                  className='flex  md:flex'>
-                 <p className='justify-start max-w-md whitespace-normal break-words'>Lorem ipsum dolor sit,
-                  amet consectetur adipisicing elit. Mollitia ducimus dolores, maiores sed,
-                   unde commodi repellat a aliquid voluptas libero sint magni autem!
-                    Placeat nemo, esse blanditiis nulla harum incidunt!</p>
+                 <p className='justify-start '>In today's digital age, a strong online presence is essential for business growth. In Pixel Surge Designers with our expert web design services, we'll create a visually captivating website that not only showcases your brand but also converts visitors into loyal customers. We just don’t target any audience, we embark on a mission to find people who are right for you, those interested in the services you offer.
+                 Drive Traffic, Drive Growth: But it doesn't stop there! With our cutting-edge web traffic services, we'll ensure that your website gets the attention it deserves. By implementing strategies like search engine optimization (SEO) and targeted advertising, we'll drive qualified traffic to your site, boosting visibility and generating leads that will increase sales for Peak Legacy Africa.
+
+
+                 </p> 
                     </motion.div>
                         </div>
                         <div class="patterns">
@@ -56,7 +57,10 @@ export default function Home() {
 
            <div className='mt-20'>
                  <h4 className='flex justify-center  font-semibold underline'>Our Approach</h4>
-                 <p className='justify-center max-w-md mx-auto '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam non, dolorum vitae possimus, vero magni reiciendis expedita in alias earum nisi, quis dolores ullam doloribus voluptas consectetur exercitationem! Expedita, magni.</p>
+                 <p className='justify-center max-w-md mx-auto '>1.	At Pixel Surge Designers, our operational approach is centred on collaboration and transparency. When you partner with us, the journey begins with crafting a website tailored to your unique needs and preferences. From sleek designs to user-friendly interfaces, we work closely with you to ensure that every aspect of your website reflects your brand identity and resonates with your target audience.</p>
+                 <p className='justify-center mt-4 max-w-md mx-auto '>
+2.	Once the website design is finalized to your satisfaction, we'll set it live upon your approval. This marks the beginning of our web traffic services journey. Depending on the plan you've chosen, we'll kickstart targeted strategies to drive traffic to your website, maximizing its visibility and engagement. Whether it's through search engine optimization (SEO), social media marketing, or pay-per-click (PPC) advertising, we'll implement the right tactics to attract your ideal audience.
+</p>
            </div>
            <div className='mt-10'>
               <div className='flex '>
@@ -71,13 +75,7 @@ export default function Home() {
                    </ul>
                     </div>
                     
-                <div className='flex'>
-                        <h5 className='justify-center max-w-md mx-auto  underline'>Testimonials</h5>
-                             </div>
-                             <div className='flex'>
-                        <p className='justify-center max-w-md mx-auto '>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, quibusdam? Quidem a enim sint sed molestias repellat soluta in consectetur excepturi, maiores iste delectus eos autem earum dolorem aliquam sapiente."
-                           Warren Oriya</p>
-                             </div>         
+               
            </div>
             </div>
         </div>

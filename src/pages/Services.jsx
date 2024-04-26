@@ -10,7 +10,7 @@ export default function Services(){
         <div className="mt-60 text-cyan-50  text-lg sm:text-base md:text-lg lg:text-xl">
             <div className='justify-center max-w-md mx-auto mb-10'>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, exercitationem dolorum rerum facere laborum aliquam quod quo qui omnis nihil, eligendi at inventore voluptatem et ipsa ratione vero modi itaque!
+                At Pixel Surge Designers, your success is our priority. We believe in a collaborative approach, where you're not just a client but an integral part of the team. Together, we'll navigate the digital landscape, overcome challenges, and capitalize on opportunities to take your business to new heights. With our seamless operational approach and unwavering dedication, we're confident that we can make a significant impact on your business and help you achieve your goals in the digital realm.
                 </p>
             </div>
          <div class="">
@@ -28,12 +28,12 @@ export default function Services(){
             </span>
             <div
                 class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                <p>Perfect for learning how the framework works, prototyping a new idea, or creating a demo to share
-                    online.</p>
+                <p>Come experience a process of planning , coneptualizing and arranging content on a website.
+                    </p>
             </div>
             <div class="pt-5 text-base font-semibold leading-7">
                 <p>
-                <Link to ="/form"class="text-sky-500 transition-all duration-300 group-hover:text-white">Read the docs
+                <Link to ="/form"class="text-sky-500 transition-all duration-300 group-hover:text-white">Web Design
                         &rarr;
                     </Link>
                 </p>
@@ -53,12 +53,13 @@ export default function Services(){
             </span>
             <div
                 class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                <p>Perfect for learning how the framework works, prototyping a new idea, or creating a demo to share
-                    online.</p>
+                <p>Web trafficking, commonly referred to as web traffic, is the flow of data sent and received by visitors to a website. It’s a measure of how many people visit a site, which pages they view, and how long they stay on those pages. Web traffic is a crucial metric for website
+                   performance, indicating popularity, user engagement, and potential areas for improvement.
+                    </p>
             </div>
             <div class="pt-5 text-base font-semibold leading-7">
                 <p>
-                    <Link to ="/form"class="text-sky-500 transition-all duration-300 group-hover:text-white">Read the docs
+                    <Link to ="/form"class="text-sky-500 transition-all duration-300 group-hover:text-white">Web Traffic
                         &rarr;
                     </Link>
                 </p>
@@ -78,12 +79,13 @@ export default function Services(){
             </span>
             <div
                 class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                <p>Perfect for learning how the framework works, prototyping a new idea, or creating a demo to share
-                    online.</p>
+                <p>Being that it involves the needs and wants of customers , we here at Pixel Surge are aimed
+                  at fostering your consumer relationships and driving business success.
+                    </p>
             </div>
             <div class="pt-5 text-base font-semibold leading-7">
                 <p>
-                <Link to ="/form"class="text-sky-500 transition-all duration-300 group-hover:text-white">Read the docs
+                <Link to ="/form"class="text-sky-500 transition-all duration-300 group-hover:text-white">Marketing
                         &rarr;
                     </Link>
                 </p>
@@ -103,12 +105,12 @@ export default function Services(){
             </span>
             <div
                 class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
-                <p>Perfect for learning how the framework works, prototyping a new idea, or creating a demo to share
-                    online.</p>
+                <p>We here at Pixel surge believe in global outreach of a business hence we give the power of having
+                  a bespoke app.  </p>
             </div>
             <div class="pt-5 text-base font-semibold leading-7">
                 <p>
-                <Link to ="/form"class="text-sky-500 transition-all duration-300 group-hover:text-white">Read the docs
+                <Link to ="/form"class="text-sky-500 transition-all duration-300 group-hover:text-white">App development
                         &rarr;
                     </Link>
                 </p>

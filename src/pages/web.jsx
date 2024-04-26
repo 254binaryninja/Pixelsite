@@ -20,6 +20,190 @@ export default function Web (){
          voluptate aliquam sint doloremque saepe nisi recusandae vitae dolor.</p>
        </div>
                     </div>
+                    <section className="py-20 dark:bg-gray-100 dark:text-gray-800">
+	<div className="container px-4 mx-auto">
+		<div className="max-w-2xl mx-auto mb-16 text-center">
+			<span className="font-bold tracking-wider uppercase dark:text-violet-600">Pricing</span>
+			<h2 className="text-4xl font-bold lg:text-5xl">Choose your best plan</h2>
+		</div>
+		<div className="flex flex-wrap items-stretch -mx-4">
+			<div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-gray-50">
+					<div className="space-y-2">
+						<h4 className="text-2xl font-bold">Beginner</h4>
+						<span className="text-3xl font-bold">Ksh 10,000-50,000
+                        <span className="text-sm tracking-wide">/month</span>
+                        </span>
+					</div>
+					<p className="mt-3 leading-relaxed dark:text-gray-600">Features</p>
+					<ul className="flex-1 mb-6 dark:text-gray-600">
+						<li className="flex mb-2 space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Social Media ads</span>
+						</li>
+						<li className="flex mb-2 space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Google ADs </span>
+						</li>
+						<li className="flex mb-2 space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Email Marketing campaigns</span>
+						</li>
+                        <li className="flex mb-2 space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>SEO - keyword enhanced</span>
+						</li>
+                        <li className="flex mb-2 space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Pay per click</span>
+						</li>
+					</ul>
+					<button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded dark:bg-violet-600 dark:text-gray-50">Get Started</button>
+				</div>
+			</div>
+			<div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-violet-600 dark:text-gray-50">
+					<div className="space-y-2">
+						<h4 className="text-2xl font-bold">Standard</h4>
+						<span className="text-3xl font-bold">Ksh 50,000-100,000
+							<span className="text-sm tracking-wide">/month</span>
+						</span>
+					</div>
+					<p className="leading-relaxed">Features.</p>
+					<ul className="flex-1 space-y-2">
+						<li className="flex items-center space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Social Media ads</span>
+						</li>
+						<li className="flex items-center space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Segmented ads with A/B testing</span>
+						</li>
+						<li className="flex items-center space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Google ads with advanced campaign management</span>
+						</li>
+						<li className="flex items-center space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Email marketing with automation</span>
+						</li>
+                        <li className="flex items-center space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>SEO-keyword enhanced</span>
+						</li>
+                        <li className="flex items-center space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Pay per click ads and ad extensions to site </span>
+						</li>
+					</ul>
+					<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-bold tracking-wider text-center rounded dark:bg-gray-100 dark:text-violet-600">Get Started</a>
+				</div>
+			</div>
+			<div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-gray-50">
+					<div className="space-y-2">
+						<h4 className="text-2xl font-bold">Advanced</h4>
+						<span className="text-3xl font-bold">Ksh 100,000 +
+							<span className="text-sm tracking-wide">/month</span>
+						</span>
+					</div>
+					<p className="leading-relaxed dark:text-gray-600">Services</p>
+					<ul className="space-y-2 dark:text-gray-600">
+						<li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Customized social media advertising</span>
+						</li>
+						<li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Segmented ads with A/B testing</span>
+						</li>
+						<li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Campaign across platform with detailed tracing</span>
+						</li>
+						<li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Google ads and campaign management</span>
+						</li>
+						<li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Conversion tracking and app binding </span>
+						</li>
+                        <li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Automated email marketing campaigns</span>
+						</li>
+                        <li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Cotent optization </span>
+						</li>
+                        <li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>SEO - keyword enhanced </span>
+						</li>
+                        <li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Link building </span>
+						</li>
+                        <li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Dynamic AD targeting </span>
+						</li>
+                        <li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Pay per click ads with site extentions </span>
+						</li>
+					</ul>
+					<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded dark:bg-violet-600 dark:text-gray-50">Get Started</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
                     <div className='bg-gradient-to-br from-[#070630] to-[#060454]'>
                         <div className='flex justify-items-center'>
                         <div class="animation-container">
@@ -68,118 +252,140 @@ export default function Web (){
                 enim ducimus alias illo dicta odit corrupti sunt, porro fugiat delectus itaque magnam dolor?
                 </p></div>
                 </div>
-                <div class="main-container">
-  <div class="heading">
-    <h1 class="heading__title">The various web stacks we have </h1>
-  
-  </div>
-  <div class="cards">
-    <div class="card card-1">
-      <div class="card__icon"></div>
-      <p class="card__exit"></p>
-      <h2 class="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#">Apply Now</a>
-      </p>
-    </div>
-    <div class="card card-2">
-      <div class="card__icon"></div>
-      <p class="card__exit"></p>
-      <h2 class="card__title">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#">Apply Now </a>
-      </p>
-    </div>
-    <div class="card card-3">
-      <div class="card__icon"></div>
-      <p class="card__exit"></p>
-      <h2 class="card__title">Ut enim ad minim veniam.</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#">Apply Now </a>
-      </p>
-    </div>
-    <div class="card card-4">
-      <div class="card__icon"></div>
-      <p class="card__exit"></p>
-      <h2 class="card__title">Quis nostrud exercitation ullamco laboris nisi.</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#">Apply Now </a>
-      </p>
-    </div>
-    <div class="card card-5">
-      <div class="card__icon"></div>
-      <p class="card__exit"></p>
-      <h2 class="card__title">Ut aliquip ex ea commodo consequat. Duis aute irure dolor.</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#">Apply Now </a>
-      </p>
-    </div>
-    <div class="card card-1">
-      <div class="card__icon"></div>
-      <p class="card__exit"></p>
-      <h2 class="card__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-      <p class="card__apply">
-        <a class="card__link" href="#">Apply Now </a>
-      </p>
-    </div>
-  </div>
-</div>
+                <section className="py-20 dark:bg-gray-100 dark:text-gray-800">
+	<div className="container px-4 mx-auto">
+		<div className="max-w-2xl mx-auto mb-16 text-center">
+			<span className="font-bold tracking-wider uppercase dark:text-violet-600">Pricing</span>
+			<h2 className="text-4xl font-bold lg:text-5xl">Choose your best plan</h2>
+		</div>
+		<div className="flex flex-wrap items-stretch -mx-4">
+			<div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-gray-50">
+					<div className="space-y-2">
+						<h4 className="text-2xl font-bold">Basic</h4>
+						<span className="text-6xl font-bold">Ksh 10,000-50,000</span>
+					</div>
+					<p className="mt-3 leading-relaxed dark:text-gray-600">Features</p>
+					<ul className="flex-1 mb-6 dark:text-gray-600">
+						<li className="flex mb-2 space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Basic design</span>
+						</li>
+						<li className="flex mb-2 space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>A few pages</span>
+						</li>
+						<li className="flex mb-2 space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Contact form</span>
+						</li>
+                        <li className="flex mb-2 space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Simple SEO optimizaiton</span>
+						</li>
+					</ul>
+					<button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded dark:bg-violet-600 dark:text-gray-50">Get Started</button>
+				</div>
+			</div>
+			<div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-violet-600 dark:text-gray-50">
+					<div className="space-y-2">
+						<h4 className="text-2xl font-bold">Standard</h4>
+						<span className="text-6xl font-bold">Ksh 50,000-150,000
+							
+						</span>
+					</div>
+					<p className="leading-relaxed">Features.</p>
+					<ul className="flex-1 space-y-2">
+						<li className="flex items-center space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Responsive features for mobile devices</span>
+						</li>
+						<li className="flex items-center space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Improved SEO keyword optimization</span>
+						</li>
+						<li className="flex items-center space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Intergration of social media and basic analytics</span>
+						</li>
+						
+					</ul>
+					<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-bold tracking-wider text-center rounded dark:bg-gray-100 dark:text-violet-600">Get Started</a>
+				</div>
+			</div>
+			<div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
+				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-gray-50">
+					<div className="space-y-2">
+						<h4 className="text-2xl font-bold">Advanced</h4>
+						<span className="text-6xl font-bold">Ksh 150,000 - 500,000
+							
+						</span>
+					</div>
+					<p className="leading-relaxed dark:text-gray-600">Features</p>
+					<ul className="space-y-2 dark:text-gray-600">
+						<li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Ecommerce:Secure gateways included</span>
+						</li>
+						<li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Tailoured content management systems</span>
+						</li>
+						<li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Advanced SEO : Content optimization strategies  </span>
+						</li>
+						<li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>API intergration with enhanced security</span>
+						</li>
+						<li className="flex items-start space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Robust security measurements</span>
+						</li>
+                        <li className="flex items-center space-x-2">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
+								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
+							</svg>
+							<span>Ongoing maintainance support</span>
+						</li>
+					</ul>
+					<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded dark:bg-violet-600 dark:text-gray-50">Get Started</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
             </div>
             <div class="container h-70">
                 <div className='flex justify-center'><h1 className='underline font-medium'>App development</h1></div>
-                <div className='flex justify-end'>
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="265" height="271" viewBox="0 0 265 271" aria-labelledby="title desc">
-            <title id="title">Logo de Jorge Aznar</title>
-            <desc id="desc">Diseñador gráfico y web en Zaragoza. Maquetación y diseño web con HTML5, CSS3, SVG, Responsive Web Design y Mobile-First.</desc>
-
-            <g id="turn">
-                <rect id="rect"  x="44.3" y="51.5" transform="rotate(45 130.45 137.65)" fill="#fff" width="172.3" height="172.3">
-                    <animate attributeName="fill" dur="2s" from="#fff" to="#000" begin="first-rotate.end+1s;rect.mouseover+1s" fill="freeze"/>
-                    <animate attributeName="fill" dur=".5s" from="#000" to="#F39C12" begin="first-rotate.end+3s;rect.mouseover+3s" fill="freeze"/>
-                    <animateTransform attributeName="transform" type="rotate" from="0 130.45 137.65" to="360 130.45 137.65" begin="rect.mouseover" dur="1s" calcMode="linear"/>
-                    <animateTransform id="first-rotate" attributeName="transform" type="rotate" values="45 130.45 137.65; 0 130.45 137.65; 90 130.45 137.65; 45 130.45 137.65; 90 130.45 137.65; 45 130.45 137.65" begin="1.5s" dur="3s" calcMode="linear"/>
-                </rect>
-                <rect x="44.3" y="51.5" transform="rotate(45 130.45 137.65)" fill="none" stroke="#000" stroke-width="4" width="172.3" height="172.3">
-                    <animate attributeName="stroke" dur="0.1s" from="#fff" to="#000" begin="first-rotate.end+1s;rect.mouseover+1s" fill="freeze"/>
-                    <animate attributeName="stroke" dur=".5s" from="#000" to="#fff" begin="first-rotate.end+3s;rect.mouseover+3s" fill="freeze"/>
-                    <animateTransform attributeName="transform" type="rotate" from="45 130.45 137.65; 0 130.45 137.65" to="360 130.45 137.65" begin="rect.mouseover" dur="2s" calcMode="linear"/>
-                    <animateTransform attributeName="transform" type="rotate" values="0 130.45 137.65; 90 130.45 137.65; 45 130.45 137.65; 90 130.45 137.65; 45 130.45 137.65" begin="1.5s" dur="3s" calcMode="linear"/>
-                </rect>
-                <polygon fill="#000" points="60.6,120.7 101.9,86.9 124.6,149.1 134.5,178.4 91,178.4">
-                    <animate attributeName="fill" dur="0.1s" from="#000" to="#fff" begin="first-rotate.end+1s;rect.mouseover+1s" fill="freeze"/>
-                    <animate attributeName="fill" dur=".5s" from="#fff" to="#C0392B" begin="first-rotate.end+3s;rect.mouseover+3s" fill="freeze"/>
-
-                    <animate attributeName="points"
-                    values="60.6,120.7 101.9,86.9 124.6,149.1 134.5,178.4 91,178.4;
-                            6.3,137 101.9,86.9 124.6,149.1 134.5,178.4 91,178.4;
-                            6.3,137 130,19 124.6,149.1 134.5,178.4 91,178.4;
-                            6.3,137 130,19 254.6,137 134.5,178.4 91,178.4;
-                            6.3,137 130,19 254.6,137 134.5,137 91,137;
-                            130,19 130,19 130,19 130,19 130,19;
-                            60.6,120.7 101.9,86.9 124.6,149.1 134.5,178.4 91,178.4"
-                    begin="first-rotate.end+5s;rect.mouseover+5s" dur="2s" fill="freeze"/>
-
-
-                </polygon>
-                <polygon fill="#000" points="136.7,70.5 195.2,105.1 150.6,178.4 102.9,178.4">
-                    <animate attributeName="fill" dur="0.1s" from="#000" to="#fff" begin="first-rotate.end+1s;rect.mouseover+1s" fill="freeze"/>
-                    <animate attributeName="fill" dur=".5s" from="#fff" to="#16A085" begin="first-rotate.end+3s;rect.mouseover+3s" fill="freeze"/>
-
-                    <animate attributeName="points"
-                    values="136.7,70.5 195.2,105.1 150.6,178.4 102.9,178.4;
-                            6.3,137 195.2,105.1 150.6,178.4 102.9,178.4;
-                            6.3,137 254.6,137 150.6,178.4 102.9,178.4;
-                            6.3,137 254.6,137 130.6,258.4 130.6,258.4;
-                            130.6,258.4 130.6,258.4 130.6,258.4 130.6,258.4;
-                            136.7,70.5 195.2,105.1 150.6,178.4 102.9,178.4"
-                    begin="first-rotate.end+5s;rect.mouseover+5s" dur="2s" fill="freeze" />
-                </polygon>
-                <line fill="none" stroke="#000" x1="68.3" y1="178.4" x2="188.7" y2="178.4">
-                    <animate attributeName="stroke" dur="0.1s" from="#000" to="#fff" begin="first-rotate.end+1s;rect.mouseover+1s" fill="freeze"/>
-                </line>
-            </g>
-        </svg>
-                </div>
+               
+                
                 <div className='flex justify-start'><p className='text-xl'>Lorem ipsum dolor sit, amet consectetur
                  adipisicing elit. Sequi officiis tenetur corrupti repellendus consequuntur neque, earum aliquam cupiditate 
                  praesentium harum optio enim quae exercitationem esse? In doloribus aspernatur magni. Eos.</p></div>

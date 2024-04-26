@@ -47,6 +47,10 @@ export default function Formweb (){
         <button type="submit" class="form-submit-btn"><Link to ="/Company">Submit</Link></button>
       </form>
     </div>
+         
+         <div>
+          
+         </div>
           </>
     
   )}
