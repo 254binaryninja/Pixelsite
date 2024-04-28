@@ -8,204 +8,22 @@ export default function Web (){
 		<div >
 			<div> 
 				
-               <div  className='bg-gradient-to-r from-blue-700 to-orange-500 via-purple-500 animate-gradient-x'>
-                  <div className='flex justify-center'><h1 className='text-2xl underline font-semibold'>Web Trafficking</h1></div>
-                  <div className='flex flex-wrap mt--40 '><p className='text-2xl md:text-xl justify-end max-w-md whitespace-normal break-words'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi corrupti magni nam nihil unde, 
-                    molestias labore quisquam sequi reprehenderit corporis laborum sit repudiandae illo adipisci quae 
-                    incidunt quas ipsum repellendus!
-                    </p>
-                    
-                    
-       <div id="section-1" className='flex justify-center items-center mt-8'>
-        <p className='text-2xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam at fugiat beatae magni odit consequuntur eaque nulla, exercitationem quaerat assumenda asperiores
-         voluptate aliquam sint doloremque saepe nisi recusandae vitae dolor.</p>
-       </div>
+               <div id="section-1" className='bg-gradient-to-r from-blue-800 to-blue-400 via-purple-500 animate-gradient-x'>
+                <motion.div
+                initial={{opacity:0.1}}
+                whileInView={{opacity:1}}
+                transition={{duration:3}}
+                >
+                  <div className='flex justify-center'><h1  className='bg-clip-text text-transparent  bg-gradient-to-r from-green-400 to-purple-500 via-white animate-gradient-x text-3xl underline font-bold m-4'>Web Trafficking</h1></div>
+                  <h2 className='text-2xl justify-start m-4'>Basic Web traffic Package :</h2>    
+				  <p classname='text-xl justify-start m-4 p '>Our Basic Web Traffic Package, focuses on essential online marketing services. This includes targeted social media ads (Facebook, Instagram, Twitter), basic Google Ads setup, simple email marketing campaigns, basic SEO enhancements with keyword research, and limited PPC ads on selected platforms.</p>                
+				  <h2 className='text-2xl justify-start m-4'>Standard Web traffic Package :</h2>    
+				  <p classname='text-xl justify-start m-4'>Upgrade to our standard Web Traffic Package, for more advanced marketing strategies. You'll get enhanced social media ads with A/B testing and audience segmentation, comprehensive Google Ads management with remarketing, robust email marketing including automation and segmentation, thorough SEO enhancements with regular analysis and optimization, and expanded PPC campaigns with broader targeting and ad extensions.</p>                
+				  <h2 className='text-2xl justify-start m-4'>Advanced Web traffic Package :</h2>    
+				  <p classname='text-xl justify-start m-4'>Our Advanced Web Traffic Package, offers top-tier digital marketing solutions. This includes customized social media campaigns across multiple platforms with detailed analytics, strategic Google Ads management with conversion tracking and advanced bidding, personalized email marketing with drip campaigns and lead nurturing, comprehensive SEO strategies with ongoing monitoring and competitor analysis, and extensive PPC campaigns featuring dynamic ad targeting and scheduling. This package is tailored for businesses ready to achieve substantial online growth and visibility.</p>                
+				  </motion.div>
+      
                     </div>
-                    <section className="py-20 dark:bg-gray-100 dark:text-gray-800">
-	<div  className="container px-4 mx-auto">
-		<div className="max-w-2xl mx-auto mb-16 text-center">
-			<span className="font-bold tracking-wider uppercase dark:text-violet-600">Pricing</span>
-			<h2 className="text-4xl font-bold lg:text-5xl">Choose your best plan</h2>
-		</div>
-		<div className="flex flex-wrap items-stretch -mx-4">
-			<div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-gray-50">
-					<div className="space-y-2">
-						<h4 className="text-2xl font-bold">Beginner</h4>
-						<span className="text-3xl font-bold">Ksh 10,000-50,000
-                        <span className="text-sm tracking-wide">/month</span>
-                        </span>
-					</div>
-					<p className="mt-3 leading-relaxed dark:text-gray-600">Features</p>
-					<ul className="flex-1 mb-6 dark:text-gray-600">
-						<li className="flex mb-2 space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Social Media ads</span>
-						</li>
-						<li className="flex mb-2 space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Google ADs </span>
-						</li>
-						<li className="flex mb-2 space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Email Marketing campaigns</span>
-						</li>
-                        <li className="flex mb-2 space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>SEO - keyword enhanced</span>
-						</li>
-                        <li className="flex mb-2 space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Pay per click</span>
-						</li>
-					</ul>
-					<button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded dark:bg-violet-600 dark:text-gray-50">Get Started</button>
-				</div>
-			</div>
-			<div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-violet-600 dark:text-gray-50">
-					<div className="space-y-2">
-						<h4 className="text-2xl font-bold">Standard</h4>
-						<span className="text-3xl font-bold">Ksh 50,000-100,000
-							<span className="text-sm tracking-wide">/month</span>
-						</span>
-					</div>
-					<p className="leading-relaxed">Features.</p>
-					<ul className="flex-1 space-y-2">
-						<li className="flex items-center space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Social Media ads</span>
-						</li>
-						<li className="flex items-center space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Segmented ads with A/B testing</span>
-						</li>
-						<li className="flex items-center space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Google ads with advanced campaign management</span>
-						</li>
-						<li className="flex items-center space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Email marketing with automation</span>
-						</li>
-                        <li className="flex items-center space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>SEO-keyword enhanced</span>
-						</li>
-                        <li className="flex items-center space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Pay per click ads and ad extensions to site </span>
-						</li>
-					</ul>
-					<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-bold tracking-wider text-center rounded dark:bg-gray-100 dark:text-violet-600">Get Started</a>
-				</div>
-			</div>
-			<div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-gray-50">
-					<div className="space-y-2">
-						<h4 className="text-2xl font-bold">Advanced</h4>
-						<span className="text-3xl font-bold">Ksh 100,000 +
-							<span className="text-sm tracking-wide">/month</span>
-						</span>
-					</div>
-					<p className="leading-relaxed dark:text-gray-600">Services</p>
-					<ul className="space-y-2 dark:text-gray-600">
-						<li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Customized social media advertising</span>
-						</li>
-						<li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Segmented ads with A/B testing</span>
-						</li>
-						<li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Campaign across platform with detailed tracing</span>
-						</li>
-						<li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Google ads and campaign management</span>
-						</li>
-						<li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Conversion tracking and app binding </span>
-						</li>
-                        <li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Automated email marketing campaigns</span>
-						</li>
-                        <li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Cotent optization </span>
-						</li>
-                        <li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>SEO - keyword enhanced </span>
-						</li>
-                        <li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Link building </span>
-						</li>
-                        <li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Dynamic AD targeting </span>
-						</li>
-                        <li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Pay per click ads with site extentions </span>
-						</li>
-					</ul>
-					<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded dark:bg-violet-600 dark:text-gray-50">Get Started</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section></div>
        <div >
                     <div  className='bg-gradient-to-br from-[#070630] to-[#060454]'>
                         <div className='flex justify-items-center'>
@@ -228,18 +46,29 @@ export default function Web (){
 		<div class="shape triangle blue"></div>
 	</div>
     <div>
-        <div>
-        <div className='flex justify-center mt-20'><h1 className='text-2xl underline font-semibold'>Marketing</h1></div>
-                  <div id="section-2" className='flex flex-wrap '><div><p className='text-2xl md:text-xl justify-center max-w-md whitespace-normal break-words'>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi corrupti magni nam nihil unde, 
-                    molestias labore quisquam sequi reprehenderit corporis laborum sit repudiandae illo adipisci quae 
-                    incidunt quas ipsum repellendus!
-                    </p><p className='mt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nemo necessitatibus non adipisci, veniam nisi cum quas repellat, beatae ut 
-                        dignissimos eum accusantium reprehenderit. Assumenda officiis recusandae ex sunt in!</p></div>
-                    <div></div>
+        <motion.div
+       initial={{opacity:0.1}}
+       whileInView={{opacity:1}}
+       transition={{duration:3}}
+        >
+        <div className='flex justify-center mt-20'><h1 className=' bg-clip-text text-transparent  bg-gradient-to-r from-green-400 to-purple-500 via-white animate-gradient-x text-3xl underline font-semibold'>Marketing</h1></div>
+                  <div id="section-2" className='flex flex-wrap'>
+				  <h2 className='text-2xl justify-start m-4'>Basic Marketing Package :</h2>    
+				  <p classname='text-xl justify-start m-4'>Our Basic Marketing Package, provides essential marketing services to establish your brand's presence both online and offline. This package includes targeted social media ads on platforms like Facebook, Instagram, and Twitter to reach specific demographics, basic Google Ads setup for targeted keywords, limited Pay-Per-Click (PPC) ads on selected platforms, and offline marketing efforts such as flyer distribution and basic billboard advertising in strategic locations.</p>                
+				  <h2 className='text-2xl justify-start m-4'>Starndard Marketing Package :</h2>    
+				  <p classname='text-xl justify-start m-4'>Elevate your marketing strategy with our standard Marketing Package. 
+				  This package includes advanced online marketing strategies such as enhanced social
+				   media ads with A/B testing and audience segmentation, comprehensive Google Ads 
+				   management with remarketing strategies, expanded PPC campaigns with broader keyword 
+				   targeting and ad extensions, along with offline marketing initiatives including more extensive billboard placements, print advertising in newspapers or magazines.
+
+</p>                
+				  <h2 className='text-2xl justify-start m-4'>Advanced Marketing Package :</h2>    
+				  <p classname='text-xl justify-start m-4'>Achieve exceptional marketing results with our Advanced Marketing Package. This comprehensive package offers a fully integrated approach combining sophisticated online and offline marketing strategies. Enjoy customized social media advertising across multiple platforms with detailed analytics, strategic Google Ads management including conversion tracking and advanced bidding strategies, extensive PPC campaigns with dynamic ad targeting and geo-targeting, along with a robust offline marketing strategy featuring prominent billboard placements, extensive print advertising, direct email and mail campaigns for personalized outreach. This package is designed to maximize your brand's visibility, engagement, and conversion opportunities across all marketing channels.</p>                
+				  
                     </div>
                     
-        </div> 
+        </motion.div> 
              
     </div>
 </div>
@@ -248,153 +77,41 @@ export default function Web (){
                </div>
             </div></div>
 			<div >
-            <div  className='bg-blue-900'>
-             <div className='flex justify-start'><h2 className='font-bold underline text-3xl mt-20'>Bespoke Websites</h2></div>
-              <div className='flex flex-wrap mt-10 mb-10'>
-                <div id="section-3"><p className='text-xl'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente, vero blanditiis atque praesentium reiciendis iusto iste, 
-                enim ducimus alias illo dicta odit corrupti sunt, porro fugiat delectus itaque magnam dolor?
-                </p></div>
-                </div>
-                <section className="py-20 dark:bg-gray-100 dark:text-gray-800">
-	<div className="container px-4 mx-auto">
-		<div className="max-w-2xl mx-auto mb-16 text-center">
-			<span className="font-bold tracking-wider uppercase dark:text-violet-600">Pricing</span>
-			<h2 className="text-4xl font-bold lg:text-5xl">Choose your best plan</h2>
-		</div>
-		<div className="flex flex-wrap items-stretch -mx-4">
-			<div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-gray-50">
-					<div className="space-y-2">
-						<h4 className="text-2xl font-bold">Basic</h4>
-						<span className="text-3xl font-bold">Ksh 10,000-50,000</span>
-					</div>
-					<p className="mt-3 leading-relaxed dark:text-gray-600">Features</p>
-					<ul className="flex-1 mb-6 dark:text-gray-600">
-						<li className="flex mb-2 space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Basic design</span>
-						</li>
-						<li className="flex mb-2 space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>A few pages</span>
-						</li>
-						<li className="flex mb-2 space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Contact form</span>
-						</li>
-                        <li className="flex mb-2 space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Simple SEO optimizaiton</span>
-						</li>
-					</ul>
-					<button type="button" className="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded dark:bg-violet-600 dark:text-gray-50">Get Started</button>
-				</div>
-			</div>
-			<div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-violet-600 dark:text-gray-50">
-					<div className="space-y-2">
-						<h4 className="text-2xl font-bold">Standard</h4>
-						<span className="text-3xl font-bold">Ksh 50,000-150,000
-							
-						</span>
-					</div>
-					<p className="leading-relaxed">Features.</p>
-					<ul className="flex-1 space-y-2">
-						<li className="flex items-center space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Responsive features for mobile devices</span>
-						</li>
-						<li className="flex items-center space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Improved SEO keyword optimization</span>
-						</li>
-						<li className="flex items-center space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Intergration of social media and basic analytics</span>
-						</li>
-						
-					</ul>
-					<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-bold tracking-wider text-center rounded dark:bg-gray-100 dark:text-violet-600">Get Started</a>
-				</div>
-			</div>
-			<div className="flex w-full mb-8 sm:px-4 md:w-1/2 lg:w-1/3 lg:mb-0">
-				<div className="flex flex-grow flex-col p-6 space-y-6 rounded shadow sm:p-8 dark:bg-gray-50">
-					<div className="space-y-2">
-						<h4 className="text-2xl font-bold">Advanced</h4>
-						<span className="text-3xl font-bold">Ksh 150,000 - 500,000
-							
-						</span>
-					</div>
-					<p className="leading-relaxed dark:text-gray-600">Features</p>
-					<ul className="space-y-2 dark:text-gray-600">
-						<li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Ecommerce:Secure gateways included</span>
-						</li>
-						<li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Tailoured content management systems</span>
-						</li>
-						<li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Advanced SEO : Content optimization strategies  </span>
-						</li>
-						<li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>API intergration with enhanced security</span>
-						</li>
-						<li className="flex items-start space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6 dark:text-violet-600">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Robust security measurements</span>
-						</li>
-                        <li className="flex items-center space-x-2">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="flex-shrink-0 w-6 h-6">
-								<path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
-							</svg>
-							<span>Ongoing maintainance support</span>
-						</li>
-					</ul>
-					<a rel="noopener noreferrer" href="#" className="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded dark:bg-violet-600 dark:text-gray-50">Get Started</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+            <div id="section-3" className='bg-blue-900'>
+             <div className='flex justify-start'><h2 className='bg-clip-text text-transparent  bg-gradient-to-r from-green-400 to-purple-500 via-white animate-gradient-x font-bold underline text-3xl mt-20'>Web Development</h2></div>
+              <motion.div 
+              initial={{opacity:0.1}}
+              whileInView={{opacity:1}}
+              transition={{duration:3}}
+              className='flex flex-wrap mt-10 mb-10'>
+			    
+				  <p classname='text-xl justify-start m-4'>In creating a website for you we have developed a system that can work for you and us effectively. Ceating a website is creating an online workshop for your business so every we detailed down it how you want it to look design it and also advice where you need the help, its functions what’s this shop going to do for your customers as they enter your world.</p>                
+				  <h2 className='text-2xl justify-start m-4'>BASIC WEBSITE DESIGN</h2>    
+				  <p classname='text-xl justify-start m-4'>Our Basic Website package is tailored for those seeking a cost-effective yet functional online presence. This package includes essential features such as a simple yet appealing design, a few informative pages to showcase your business, a contact form for customer inquiries, and basic SEO optimization to help improve your website's visibility on search engines.</p>                
+				  <h2 className='text-2xl justify-start m-4'>STANDARD WEBSITE DESIGN</h2>    
+				  <p classname='text-xl justify-start m-4'>For those looking to elevate their online presence, our Standard Website package offers enhanced features at a competitive price. This package includes a responsive design optimized for mobile devices, improved SEO with keyword integration to boost search engine rankings, integration of social media for broader reach and engagement, and basic analytics to track website performance and visitor behavior</p>                
+				  <h2 className='text-2xl justify-start m-4'>ADVANCED WEBSITE DESIGN</h2>    
+				  <p classname='text-xl justify-start m-4'>Our Advanced Website package is designed for businesses requiring sophisticated functionality and customization. This package includes e-commerce capabilities with secure payment gateways, a custom content management system (CMS) for seamless website management, advanced SEO strategies including backlinking and content optimization, integration with third-party APIs for enhanced functionality, robust security measures to protect user data, and ongoing maintenance support to ensure your website remains secure and up-to-date. This package is ideal for businesses looking to establish a powerful online presence with comprehensive features and functionalities.</p>                
+				 
+                </motion.div>
+   
             </div></div>
 			<div >
             <div class="container h-70">
-                <div  className='flex justify-center'><h1 className='underline font-medium'>App development</h1></div>
-               
+                <div id="section-4" className='flex justify-center'><h1 className='bg-clip-text text-transparent  bg-gradient-to-r from-green-400 to-purple-500 via-white animate-gradient-x underline font-bold text-3xl'>App development</h1></div>
+                <motion.div
+                initial={{opacity:0.1}}
+                whileInView={{opacity:1}}
+                transition={{duration:3}}
+                >
+				<h2 className='text-2xl justify-start m-4 underline'>Basic App Development :</h2>    
+				  <p classname='text-xl justify-start m-4'>Our Basic App Development package is perfect for individuals and startups looking to launch a mobile application without breaking the bank. This package includes essential features such as a straightforward user interface, basic functionality tailored to your requirements, integration of core features, and basic testing to ensure functionality across devices.</p>                
+				  <h2 className='text-2xl justify-start m-4 underline'>Standard App Development :</h2>    
+				  <p classname='text-xl justify-start m-4'>Elevate your mobile presence with our Standard App Development package. This package includes responsive design optimized for various screen sizes, enhanced functionality with additional features, integration of social media sharing capabilities, improved user experience through interactive elements, and thorough testing to ensure smooth performance on iOS and Android platforms.</p>                
+				  <h2 className='text-2xl justify-start m-4 underline'>Advanced App Development :</h2>    
+				  <p classname='text-xl justify-start m-4'>For businesses seeking comprehensive mobile solutions, our Advanced App Development package offers a robust set of features. This package includes advanced functionality such as e-commerce integration with secure payment gateways, custom backend systems for seamless data management, integration with third-party APIs for enhanced functionality, advanced security measures to protect user data, and ongoing maintenance and support to keep your app optimized and secure. This package is ideal for businesses looking to leverage the full potential of mobile technology to engage customers and drive growth.</p>                
+          </motion.div>
                 
-                <div id="section-4" className='flex justify-start'><p  className='text-xl'>Lorem ipsum dolor sit, amet consectetur
-                 adipisicing elit. Sequi officiis tenetur corrupti repellendus consequuntur neque, earum aliquam cupiditate 
-                 praesentium harum optio enim quae exercitationem esse? In doloribus aspernatur magni. Eos.</p></div>
-                <p className='mt-6 text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aut sequi magni omnis. Corrupti optio esse blanditiis? Magni in libero recusandae aperiam beatae quo similique rem amet, totam id aspernatur?</p>
                 
 </div></div>
 

@@ -1,16 +1,18 @@
-import {motion}from 'framer-motion'
+import {motion,useInView,useTransform}from 'framer-motion'
 import { Link } from 'react-router-dom'
 export default function Home() {
+      //const {scrollYProgress} = ();
+     // const xRange = useTransform(scrollYProgress,[0,1],[0,-1000]);
     return(
         <div className='mt-40 text-cyan-50 '>
             <motion.div
             initial={{opacity:0.1}}
             whileInView={{opacity:1}}
             transition={{duration:2.5,ease:"easeOut"}}
-            className='mb-10'>
-            <h1 className='flex justify-center mt-20 text-8xl  semibold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-500'>PIXEL SURGE</h1>
-                <h2 className='flex justify-center  text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-300 '>DESIGNERS</h2>
-               <h3 className='mt-10 flex justify-center text-3xl bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-300'>Your digital dreams made a reality</h3>
+            className='m-0'>
+            <h1 className='flex justify-center mt-20 text-8xl  semibold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-500 via-white animate-gradient-x'>PIXEL SURGE</h1>
+                <h2 className='flex justify-center  text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-300 via-white animate-gradient-x'>DESIGNERS</h2>
+               <h3 className='mt-10 flex justify-center text-3xl bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-300 via-white animate-gradient-x'>Your digital dreams made a reality</h3>
                 </motion.div>
                 <div class="patterns mb-40">
                 <svg width="100%" height="100%">
@@ -54,12 +56,16 @@ Creating a fully functional website in this digital age has become one of the fa
   </svg>
 </div>
 
-           <div className='mt-20'>
+           <motion.div
+           initial={{opacity:0.1}}
+           whileInView={{opacity:1}}
+           transition={{duration:3}}
+           className='mt-20'>
                  <h4 className='flex justify-center  font-semibold underline'>Our Approach</h4>
                  <p className='justify-start'>
                  Here at Pixel Surge Designers we believe in the attention economy, every click, like, and share holds value. Your ability to capture and retain the attention of your target audience directly impacts your business's success. Now, it's not just about what you produce—it's about how you present it to the world. We’ll create a stunning website and create the traffic needed for you
                  </p>
-                 <div>
+                 <div className='m-20'>
                  <a class="p-8 max-w-lg border border-indigo-300 rounded-2xl hover:shadow-xl hover:shadow-indigo-50 flex flex-col items-center"
     href="#">
     <img src="src\assets\images\imagepixel1.webp" class="shadow rounded-lg overflow-hidden border" />
@@ -73,25 +79,52 @@ Creating a fully functional website in this digital age has become one of the fa
     </div>
 </a>
 </div>
-           </div>
+           </motion.div>
            <div className='mt-20'>
            <h4 className='flex justify-center  font-semibold underline'>Our happy clients</h4>
-                 <p className='justify-start'>
+           <motion.div className=''>
+            <motion.div
+            className=''
+            style={{}}
+            >
+                 <motion.div 
+                  initial={{opacity:0.4}}
+                  whileHover={{opacity:1}}
+                  transition={{duration:3}}
+                 className='m-20'>
+                 <p className=''>
                    "Pixel Surge Designers exceeded my expectations with their exceptional service and creative solutions. They took the time to understand my vision and transformed it into a stunning website that perfectly represents my brand. Their attention to detail and responsiveness made the entire process smooth and enjoyable. I highly recommend them for anyone looking for top-notch web design and digital marketing expertise."
-                 </p></div>
-                 <motion.div
-                 initial={{x:0}}
-                 whileInView={{x:120}}
-                 transition={{duration:3,ease:"easeInOut"}}
+                 </p>  <div
+                 
                  classname=" flex flex-wrap mx-w-md mx-auto">
-                 <h4 className='mt-10 text-2xl text-green-400  '>Justus Oriya</h4><p className='text-xl'>Assistant Manager Lexus apartments </p>
-           </motion.div>
+                 <h4 className='mt-10 text-2xl text-green-400  '>Justus Oriya</h4><p className='text-xl'>Assistant Manager Lexus apartments </p></div></motion.div>
+                
+           
+           
+           <motion.div
+            initial={{opacity:0.4}}
+            whileHover={{opacity:1}}
+            transition={{duration:3}}
+           className='m-20 '>
+                 <p className=''>
+                   "Pixel Surge Designers is a reliable partner that consistently delivers outstanding results. From web traffic optimization to brand outreach, they have helped us navigate the complex world of digital marketing with ease. Their commitment to understanding our goals and tailoring solutions accordingly has made them an indispensable asset to our company. I look forward to continuing our successful collaboration with them."
+                 </p>  <div
+                 
+                 classname=" flex flex-wrap mx-w-md mx-auto">
+                 <h4 className='mt-10 text-2xl text-green-400  '>Arnold Musandu</h4><p className='text-xl'> Cheif Executive Officer Leviathan </p></div></motion.div>
+                 </motion.div>
+                 </motion.div>
+                 </div>
 
            <div className='mt-10'>
               <div className='flex '>
                  <h3 className=' justify-start font-semibold text-4xl'>How do you want us to help ? </h3>
                  </div>
-                 <div className='flex'>
+                 <motion.div
+                  initial={{y:30}}
+                  whileInView={{y:0}}
+                  transition={{duration:3,ease:"backIn"}}
+                 className='flex'>
                    <ul className='mt-6 list-disc'>
                         <li><Link to ="/Form" className='m-8'><h1 className='text-2xl text-cyan-400'>Launch Online platform</h1>
                         <p>Deploying your first ever digital workshop and make it accessible to users worldwide and even locally</p>
@@ -106,7 +139,7 @@ Creating a fully functional website in this digital age has become one of the fa
                         <p>Design and develop software specifically tailoured for smart mobile devices.</p>
                         </Link></li>
                    </ul>
-                    </div>
+                    </motion.div>
                     
                
            </div>
