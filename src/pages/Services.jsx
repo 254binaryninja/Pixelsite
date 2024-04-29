@@ -42,7 +42,7 @@ export default function Services(){
             </div>
             <div class="pt-5 text-base font-semibold leading-7">
                 <p>
-                <Link smooth to ="/Web/#section-2"class="text-sky-500 transition-all duration-300 group-hover:text-white">Web Design
+                <Link smooth to ="/Web/#section-3"class="text-sky-500 transition-all duration-300 group-hover:text-white">Web Design
                         &rarr;
                     </Link>
                 </p>
@@ -94,7 +94,7 @@ export default function Services(){
             </div>
             <div class="pt-5 text-base font-semibold leading-7">
                 <p>
-                <Link  smooth to ="/Web/#section-3"class="text-sky-500 transition-all duration-300 group-hover:text-white">Marketing
+                <Link  smooth to ="/Web/#section-2"class="text-sky-500 transition-all duration-300 group-hover:text-white">Marketing
                         &rarr;
                     </Link>
                 </p>

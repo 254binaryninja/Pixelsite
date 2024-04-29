@@ -1,40 +1,35 @@
+import { motion } from "framer-motion"
 export default function  Market (){
     return (
         <>
          <div className="mt-40 mb-20 text-cyan-50">
             <div className=" flex justify-center  "><h1 className=" bg-clip-text text-transparent  bg-gradient-to-r from-green-400 to-purple-500 via-white animate-gradient-x text-3xl underline text-bold">Marketing</h1></div>
-            <div className="flex flex-wrap justify-start"><p className="">
-            In today's fiercely competitive market, a website isn't just a luxury –
-             it's a vital tool for businesses to thrive and expand their reach. 
-             Think of it as your digital storefront, open 24/7 . A well-designed website
-              not only enhances your brand's credibility but also acts as a powerful magnet,
-               attracting potential customers. With strategic design and digital marketing,
-                your website becomes a profit-generating powerhouse that outshines every 
-                competition.
+            <motion.div 
+            initial={{opacity:0.2}}
+            whileInView={{opacity:1}}
+            transition={{duration:3,ease:"easeIn"}}
+            className="flex flex-wrap justify-start"><p className="">
+            The Market or others would call economy is a unique and important sector to look while launching your dreams once the economy was land where anyone who had land had the  economy ,we went to the industrial era where people who owned industrys had the economy but the era was again passed and we welcomed new markets and this market had a key.
 
-                </p></div>
-                <div className="flex items-center"><p className="">
-            At Pixel Surge Designers, creativity meets functionality in the digital realm.
-             As a dynamic collective of web developers, we specialize in crafting captivating 
-             online experiences tailored to your unique needs. We understand the importance of
-              a visually striking and user-friendly website in today's digital landscape.
-               Whether you're a small business looking to establish your online presence or a
-                corporation seeking to revamp your website, we are committed to delivering
-                 exceptional results that exceed expectations.
-                </p><img src="src\assets\images\SEO.jpg"alt="Serach engine optimization"className="m-10 w-40 h-40"/>
-                </div>
-                <div className="flex items-center">
+                </p></motion.div>
+                <motion.div
+                initial={{opacity:0.2}}
+                whileInView={{opacity:1}}
+                transition={{duration:3,ease:"easeIn"}}
+                className="flex items-center"><p className="">
+                We welcomed the information era where the few individuals who had information or those informed had the economy. This era was welcomed by technology and us Pixel Surge we cannot ignore that fact where we need our clients to be kept informed on how to get the right audience. We believe in learning and experienced and we give out information that will best suit every client .     
+                </p><img src="src\assets\images\pexels-joshuamiranda-3989140.jpg"alt="Serach engine optimization"className="m-10 w-40 h-40"/>
+                </motion.div>
+                <motion.div
+                initial={{opacity:0.2}}
+                whileInView={{opacity:1}}
+                transition={{duration:3,ease:"easeIn"}}
+                className="flex items-center">
                 <img src="src\assets\images\SEO.jpg"alt="Serach engine optimization"className="m-10 w-40 h-40"/>
                     <p className="">
-            At Pixel Surge Designers, creativity meets functionality in the digital realm.
-             As a dynamic collective of web developers, we specialize in crafting captivating 
-             online experiences tailored to your unique needs. We understand the importance of
-              a visually striking and user-friendly website in today's digital landscape.
-               Whether you're a small business looking to establish your online presence or a
-                corporation seeking to revamp your website, we are committed to delivering
-                 exceptional results that exceed expectations.
+                    We also believe in attention, where it does not matter  what product or services you are offering but it matters      how you present it, how you showcase it to the world,do it the right and you might have the best chance in succeeding in this economy since we specialize in giving businesses that head start into the competitive platforms of businesses   
                 </p>
-                </div>
+                </motion.div>
                 <div class="patterns mb-40">
                 <svg width="100%" height="100%">
     <defs>
@@ -47,6 +42,11 @@ export default function  Market (){
     <rect x="0" y="0" width="100%" height="100%" fill="url(#puzzle)" />
   </svg>
 </div>
+<motion.div
+initial={{opacity:0.2}}
+whileInView={{opacity:1}}
+transition={{duration:3,ease:"easeIn"}}
+className="m-8"><p >Now is the time to seize the opportunity that the digital market presents. By harnessing the power of online platforms and leveraging targeted marketing strategies, you can propel your business to new heights of success                                                                                                                                      </p></motion.div>
         </div>
         </>
     )

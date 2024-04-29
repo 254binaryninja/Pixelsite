@@ -16,7 +16,7 @@ import Formweb from './components/jsx/form'
  import RootLayout from './layouts/Rootlayout'
 import About from './components/jsx/about'
 import Market from './components/jsx/market'
-import Solution from './components/jsx/solution'
+
 import Process from './components/jsx/process'
 import Teams from './components/jsx/Teams'
 
@@ -30,7 +30,7 @@ import Teams from './components/jsx/Teams'
       <Route path = "/Services" element = {<Services/>}/>
       <Route path = "/About"   element = {<About/>}/>
       <Route path = "/Marketing" element = {<Market/>}/>
-      <Route path = "/Solution" element = {<Solution/>}/>
+    
       <Route path = "/Teams"    element = {<Teams/>}/>
       <Route path = "/Process" element = {<Process/>}/>
       <Route path = "/Contact" element = {<Contact/>}/>

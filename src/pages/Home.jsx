@@ -1,8 +1,9 @@
-import {motion,useInView,useTransform}from 'framer-motion'
+import {motion}from 'framer-motion'
 import { Link } from 'react-router-dom'
+//styling
+//import'../pages/css/testimony.css'
 export default function Home() {
-      //const {scrollYProgress} = ();
-     // const xRange = useTransform(scrollYProgress,[0,1],[0,-1000]);
+     
     return(
         <div className='mt-40 text-cyan-50 '>
             <motion.div
@@ -65,7 +66,7 @@ Creating a fully functional website in this digital age has become one of the fa
                  <p className='justify-start'>
                  Here at Pixel Surge Designers we believe in the attention economy, every click, like, and share holds value. Your ability to capture and retain the attention of your target audience directly impacts your business's success. Now, it's not just about what you produce—it's about how you present it to the world. We’ll create a stunning website and create the traffic needed for you
                  </p>
-                 <div className='m-20'>
+                 <div className=' m-16 flex justify-items-center'>
                  <a class="p-8 max-w-lg border border-indigo-300 rounded-2xl hover:shadow-xl hover:shadow-indigo-50 flex flex-col items-center"
     href="#">
     <img src="src\assets\images\imagepixel1.webp" class="shadow rounded-lg overflow-hidden border" />
@@ -84,7 +85,7 @@ Creating a fully functional website in this digital age has become one of the fa
            <h4 className='flex justify-center  font-semibold underline'>Our happy clients</h4>
            <motion.div className=''>
             <motion.div
-            className=''
+            class=''
             style={{}}
             >
                  <motion.div 
@@ -111,7 +112,7 @@ Creating a fully functional website in this digital age has become one of the fa
                  </p>  <div
                  
                  classname=" flex flex-wrap mx-w-md mx-auto">
-                 <h4 className='mt-10 text-2xl text-green-400  '>Arnold Musandu</h4><p className='text-xl'> Cheif Executive Officer Leviathan </p></div></motion.div>
+                 <h4 className='mt-10 text-2xl text-green-400'>Arnold Musandu</h4><p className='text-xl'> Cheif Executive Officer Leviathan </p></div></motion.div>
                  </motion.div>
                  </motion.div>
                  </div>
