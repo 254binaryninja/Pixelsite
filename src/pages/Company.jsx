@@ -68,21 +68,7 @@ export default  function Company(){
             <h6 class="carousel-item__details--subtitle">Know more about our processes</h6>
           </div>
         </div></Link>
-        <Link to = "/Solution">
-        <div class="carousel-item m-8">
-          <img
-            class="carousel-item__img"
-            src="src\assets\images\people.jpg"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <div class="controls">
-              
-            </div>
-            <h5 class="carousel-item__details--title">Solution</h5>
-            <h6 class="carousel-item__details--subtitle">Know the solutions available to you as Customer</h6>
-          </div>
-        </div></Link>
+       
         <Link to ="/Teams">
         <div class="carousel-item m-8">
           <img

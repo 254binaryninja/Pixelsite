@@ -13,9 +13,9 @@ export default function Home() {
             className='m-0'>
             <h1 className='flex justify-center mt-20 text-8xl  semibold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-purple-500 via-white animate-gradient-x'>PIXEL SURGE</h1>
                 <h2 className='flex justify-center  text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-300 via-white animate-gradient-x'>DESIGNERS</h2>
-               <h3 className='mt-10 flex justify-center text-3xl bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-300 via-white animate-gradient-x'>Your digital dreams made a reality</h3>
+               <h3 className='m-6 flex justify-center text-3xl bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-300 via-white animate-gradient-x'>Your digital dreams made a reality</h3>
                 </motion.div>
-                <div class="patterns mb-40">
+                <div class="patterns mt-10">
                 <svg width="100%" height="100%">
     <defs>
       <pattern id="puzzle" x="0" y="0" width="360" height="192" patternUnits="userSpaceOnUse">
@@ -24,12 +24,12 @@ export default function Home() {
       </pattern>
     </defs>
 
-    <rect x="0" y="0" width="100%" height="100%" fill="url(#puzzle)" />
+    <rect x="0" y="0" width="100%" height="50%" fill="url(#puzzle)" />
   </svg>
 </div>
                 <div className='text-lg sm:text-base md:text-lg lg:text-xl'>
-                <p className='text-cyan-50'>Welcome to Pixel Surge Designers, where your digital success is our mission! We specialize in creating stunning websites and driving targeted traffic to help businesses thrive in the online world.</p>
-         <div className='mt-10 mb-4'>
+                <p className='text-cyan-50 m-4'>Welcome to Pixel Surge Designers, where your digital success is our mission! We specialize in creating stunning websites and driving targeted traffic to help businesses thrive in the online world.</p>
+         <div className='m-7'>
          <div className='flex justify-start'>
                  <h3 className='font-semibold underline'>What we do</h3>
                  </div>
@@ -38,13 +38,13 @@ export default function Home() {
                  whileInView={{x:0}}
                     transition={{duration:3.5,ease:"easeOut"}}
                  className='flex  md:flex'>
-                 <p className='justify-start '>
+                 <p className='justify-start m-8 '>
 
 Creating a fully functional website in this digital age has become one of the factors that has helped businesses grow. A website serves as a 24/7 storefront, offering accessibility and visibility to potential customers. However, merely having a website is not enough. Without proper traffic, it can become a liability, a digital asset lost. We make it our goal to make sure your online presence is established our methods are many and efficient ;search engine optimization (SEO),social media marketing,targeted advertising to drive relevant traffic to the website and Email marketing and google ads and many more to boost you in the right way
                  </p> 
                     </motion.div>
                         </div>
-                        <div class="patterns">
+                        <div class="patterns mb-0">
   <svg width="100%" height="100%">
     <defs>
       <pattern id="puzzle" x="0" y="0" width="360" height="192" patternUnits="userSpaceOnUse">
@@ -53,7 +53,7 @@ Creating a fully functional website in this digital age has become one of the fa
       </pattern>
     </defs>
 
-    <rect x="0" y="0" width="100%" height="100%" fill="url(#puzzle)" />
+    <rect x="0" y="0" width="100%" height="50%" fill="url(#puzzle)" />
   </svg>
 </div>
 
@@ -124,7 +124,7 @@ Creating a fully functional website in this digital age has become one of the fa
                  <motion.div
                   initial={{y:30}}
                   whileInView={{y:0}}
-                  transition={{duration:3,ease:"backIn"}}
+                  transition={{duration:2.5,ease:'easeInOut'}}
                  className='flex'>
                    <ul className='mt-6 list-disc'>
                         <li><Link to ="/Form" className='m-8'><h1 className='text-2xl text-cyan-400'>Launch Online platform</h1>

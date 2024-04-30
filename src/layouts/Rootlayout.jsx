@@ -1,4 +1,4 @@
-import { NavLink,Outlet } from "react-router-dom";
+import { NavLink,Outlet,Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Modal from 'react-modal'
 //loader 
@@ -122,18 +122,18 @@ export default function RootLayout(){
 
           <ul class="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> About </a>
+              <Link to="/About" class="text-gray-50 transition hover:opacity-75"> About </Link>
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> Team </a>
+              <Link to="/Teams" class="text-gray-50 transition hover:opacity-75"> Team </Link>
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> Marketing </a>
+              <Link to="/Marketing" class="text-gray-50 transition hover:opacity-75"> Marketing </Link>
             </li>
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> Process </a>
+              <Link to="/Process" class="text-gray-50 transition hover:opacity-75"> Process </Link>
             </li>
           </ul>
         </div>
@@ -181,24 +181,7 @@ export default function RootLayout(){
        
 
         <ul class="col-span-2 flex justify-start gap-6 lg:col-span-5 lg:justify-end">
-          <li>
-            <a
-              href="#"
-              rel="noreferrer"
-              target="_blank"
-              class="text-gray-50 transition hover:opacity-75"
-            >
-              <span class="sr-only">Facebook</span>
-
-              <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  fill-rule="evenodd"
-                  d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </a>
-          </li>
+         
 
           <li>
             <a
@@ -263,7 +246,7 @@ export default function RootLayout(){
               class="text-gray-50 transition hover:opacity-75"
             >
                 <span class="sr-only">Whatsapp</span>
-               <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 258"><defs>
+               <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6"  viewBox="0 0 256 258"><defs>
                 <linearGradient id="logosWhatsappIcon0" x1="50%" x2="50%" y1="100%" y2="0%"><stop offset="0%" stop-color="#1faf38"/>
                 <stop offset="100%" stop-color="#60d669"/></linearGradient><linearGradient id="logosWhatsappIcon1" x1="50%" x2="50%" y1="100%" y2="0%"><stop offset="0%" stop-color="#f9f9f9"/>
                 <stop offset="100%" stop-color="currentColor"/></linearGradient></defs>

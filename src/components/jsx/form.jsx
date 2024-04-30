@@ -25,17 +25,18 @@ export default function Formweb (){
          <>
          <div class="form-container justify-center">
       <form class="form" onSubmit={handleSubmit}>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input required="" name="email" id="email" type="text"
-          value={formData.email}
-           onChange={(e) => setFormData({ ...formData, email: e.target.value })}/>
-        </div>
+        
         <div class="form-group">
           <label for="email">Name</label>
           <input name="name" id="name" type="text"
           value={formData.name}
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}/>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input required="" name="email" id="email" type="text"
+          value={formData.email}
+           onChange={(e) => setFormData({ ...formData, email: e.target.value })}/>
         </div>
         <div class="form-group">
           <label for="textarea">How did you hear about us?</label>
