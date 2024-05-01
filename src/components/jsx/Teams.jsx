@@ -9,7 +9,7 @@ export default function Teams(){
              whileInView={{opacity:1}}
              transition={{duration:3,ease:"easeOut"}}
             className="flex flex-wrap justify-start"><p className="m-4">Our team at Pixel Surge Designers has amassed years of invaluable experience in web development and digital marketing and joined up to form Pixel Surge as we know it. Our seasoned web developers bring a wealth of technical expertise, having worked on diverse projects ranging from responsive websites to complex e-commerce platforms. This depth of experience enables us to craft solutions that are not only visually appealing but also robust and user-friendly. Moreover, our marketing strategists have honed their skills in navigating the ever-evolving landscape of digital marketing, delivering impactful campaigns that drive tangible results for our clients.</p></motion.div>
-            <div class="patterns mb-0">
+            <div class="patterns mb-8">
                 <svg width="100%" height="100%">
     <defs>
       <pattern id="puzzle" x="0" y="0" className="rounded-md" width="360" height="192" patternUnits="userSpaceOnUse">
@@ -18,7 +18,7 @@ export default function Teams(){
       </pattern>
     </defs>
 
-    <rect x="0" y="0" width="100%" height="50%" fill="url(#puzzle)" />
+    <rect x="0" y="0" width="100%" height="100%" fill="url(#puzzle)" />
   </svg>
 </div>
             <motion.div 
@@ -26,7 +26,7 @@ export default function Teams(){
             whileInView={{opacity:1}}
             transition={{duration:3,ease:"easeOut"}}
             className="flex flex-wrap justify-start"><p className="m-8">At Pixel Surge Designers, trust is at the core of everything we do. Since our establishment in 2024, we have built a reputation for reliability and transparency in our industry. Our seasoned team of marketing strategists understands the nuances of market dynamics and consumer behavior, allowing us to develop tailored strategies that resonate with target audiences. Whether it's optimizing web traffic or launching effective marketing campaigns, our clients can rest assured that they are partnering with a team dedicated to their success.</p></motion.div>
-            <div class="patterns mb-0">
+            <div class="patterns mb-8">
                 <svg width="100%" height="100%">
     <defs>
       <pattern id="puzzle" x="0" y="0" width="360" height="192" patternUnits="userSpaceOnUse">
@@ -35,7 +35,7 @@ export default function Teams(){
       </pattern>
     </defs>
 
-    <rect x="0" y="0" width="100%" height="50%" fill="url(#puzzle)" />
+    <rect x="0" y="0" width="100%" height="100%" fill="url(#puzzle)" />
   </svg>
 </div>
             <motion.div

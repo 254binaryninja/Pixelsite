@@ -18,7 +18,7 @@ export default function  Market (){
                 transition={{duration:3,ease:"easeIn"}}
                 className="flex items-center"><p className="">
                 We welcomed the information era where the few individuals who had information or those informed had the economy. This era was welcomed by technology and us Pixel Surge we cannot ignore that fact where we need our clients to be kept informed on how to get the right audience. We believe in learning and experienced and we give out information that will best suit every client .     
-                </p><img src="src\assets\images\pexels-joshuamiranda-3989140.jpg"alt="Serach engine optimization"className=" rounded-md m-10 w-40 h-40"/>
+                </p><img src="src\assets\images\digital-marketing-1944491_1280.png"alt="Serach engine optimization"className=" rounded-md m-10 w-40 h-40"/>
                 </motion.div>
                 <motion.div
                 initial={{opacity:0.2}}
@@ -39,14 +39,14 @@ export default function  Market (){
       </pattern>
     </defs>
 
-    <rect x="0" y="0" width="100%" height="50%"className="mb-0" fill="url(#puzzle)" />
+    <rect x="0" y="0" width="100%" height="100%"className="mb-0" fill="url(#puzzle)" />
   </svg>
 </div>
 <motion.div
 initial={{opacity:0.2}}
 whileInView={{opacity:1}}
 transition={{duration:3,ease:"easeIn"}}
-className=" ml-8 mb-8"><p >Now is the time to seize the opportunity that the digital market presents. By harnessing the power of online platforms and leveraging targeted marketing strategies, you can propel your business to new heights of success                                                                                                                                      </p></motion.div>
+className=" m-8"><p >Now is the time to seize the opportunity that the digital market presents. By harnessing the power of online platforms and leveraging targeted marketing strategies, you can propel your business to new heights of success                                                                                                                                      </p></motion.div>
         </div>
         </>
     )

@@ -1,9 +1,20 @@
 import {motion}from 'framer-motion'
 import { Link } from 'react-router-dom'
+import React from 'react'
+import Slider from 'react-slick'
 //styling
-//import'../pages/css/testimony.css'
+
 export default function Home() {
-     
+  
+    const settings = {
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    };
+  
+  
     return(
         <div className='mt-40 text-cyan-50 '>
             <motion.div
@@ -24,7 +35,7 @@ export default function Home() {
       </pattern>
     </defs>
 
-    <rect x="0" y="0" width="100%" height="50%" fill="url(#puzzle)" />
+    <rect x="0" y="0" width="100%" height="100%" fill="url(#puzzle)" />
   </svg>
 </div>
                 <div className='text-lg sm:text-base md:text-lg lg:text-xl'>
@@ -53,7 +64,7 @@ Creating a fully functional website in this digital age has become one of the fa
       </pattern>
     </defs>
 
-    <rect x="0" y="0" width="100%" height="50%" fill="url(#puzzle)" />
+    <rect x="0" y="0" width="100%" height="100%" fill="url(#puzzle)" />
   </svg>
 </div>
 
@@ -83,16 +94,15 @@ Creating a fully functional website in this digital age has become one of the fa
            </motion.div>
            <div className='mt-20'>
            <h4 className='flex justify-center  font-semibold underline'>Our happy clients</h4>
-           <motion.div className=''>
-            <motion.div
-            class=''
-            style={{}}
-            >
+           <div className=''>
+            <div
+            class=''> 
+            <Slider>
                  <motion.div 
                   initial={{opacity:0.4}}
                   whileHover={{opacity:1}}
                   transition={{duration:3}}
-                 className='m-20'>
+                 className='mt-10 grid place-items-center h-screen'>
                  <p className=''>
                    "Pixel Surge Designers exceeded my expectations with their exceptional service and creative solutions. They took the time to understand my vision and transformed it into a stunning website that perfectly represents my brand. Their attention to detail and responsiveness made the entire process smooth and enjoyable. I highly recommend them for anyone looking for top-notch web design and digital marketing expertise."
                  </p>  <div
@@ -106,15 +116,16 @@ Creating a fully functional website in this digital age has become one of the fa
             initial={{opacity:0.4}}
             whileHover={{opacity:1}}
             transition={{duration:3}}
-           className='m-20 '>
+           className='mt-10 grid place-items-center h-screen'>
                  <p className=''>
                    "Pixel Surge Designers is a reliable partner that consistently delivers outstanding results. From web traffic optimization to brand outreach, they have helped us navigate the complex world of digital marketing with ease. Their commitment to understanding our goals and tailoring solutions accordingly has made them an indispensable asset to our company. I look forward to continuing our successful collaboration with them."
                  </p>  <div
                  
                  classname=" flex flex-wrap mx-w-md mx-auto">
                  <h4 className='mt-10 text-2xl text-green-400'>Arnold Musandu</h4><p className='text-xl'> Cheif Executive Officer Leviathan </p></div></motion.div>
-                 </motion.div>
-                 </motion.div>
+                 </Slider>
+                 </div>
+                 </div>
                  </div>
 
            <div className='mt-10'>

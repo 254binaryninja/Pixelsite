@@ -240,7 +240,7 @@ export default function RootLayout(){
 
           <li>
           <a
-              href="#"
+              href="https://api.whatsapp.com/send?phone=254788118156&text=Hello%2C%20there!"
               rel="noreferrer"
               target="_blank"
               class="text-gray-50 transition hover:opacity-75"

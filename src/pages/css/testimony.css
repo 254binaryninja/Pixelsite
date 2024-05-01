@@ -1,15 +1,29 @@
-.testimonials{
-    width: 100%;
-    overflow-x: scroll;
-    padding: 30px;
-    padding-top: 80px;
+.testimony {
     position: relative;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.testimony{
-    white-space: nowrap;
-    margin: 70px 0px;
-    padding-bottom: 10px;
-    display: inline-block;
-}
+    overflow: hidden;
+    width: 100%; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+  }
+  
+  .content, .hidden-content {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  .hidden-content {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    
+  }
+  
+  .content.slide-out {
+    transform: translateX(-100%);
+  }
+  
+  
+  .hidden-content.slide-in {
+    left: 0;
+  }
+  

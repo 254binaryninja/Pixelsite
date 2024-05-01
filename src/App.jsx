@@ -19,7 +19,8 @@ import Market from './components/jsx/market'
 
 import Process from './components/jsx/process'
 import Teams from './components/jsx/Teams'
-import Email from './pages/email'
+
+import Error from './pages/404error'
 
  const router =createBrowserRouter(
   createRoutesFromElements(
@@ -38,7 +39,7 @@ import Email from './pages/email'
       </Route> 
       <Route path = "/Form" element = {<Formweb/>}/>
       <Route path = "/Web"  element = {<Web/>}/>
-      <Route path = "/email" element = {<Email/>}/>
+      <Route path = "*" element = {<Error/>}/>
       </>  
   )
  )

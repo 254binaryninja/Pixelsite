@@ -5,9 +5,9 @@
 .animation-container {
 	display: block;
 	position: relative;
-	width: 800px;
+	width: 100%;
 	max-width: 100%;
-	margin: 0 auto;
+	
 	
 	.lightning-container {
 		position: absolute;

@@ -10,14 +10,14 @@ export default function Process(){
             transition={{duration:3}}
             className="flex items-center"><p className="">
             At Pixel Surge Designers, our operational approach is centred on collaboration and transparency. When you partner with us, the journey begins  with crafting a website tailored to your unique needs and preferences. From sleek designs to user-friendly interfaces, we work closely with you to ensure that every aspect of your website reflects your brand identity and resonates with your target audience.
-                </p><img src="src\assets\images\pexels-mikhail-nilov-8297478.jpg"alt="Serach engine optimization"className="rounded-md m-10 w-40 h-40"/>
+                </p><img src="src\assets\images\marketing-998561_1280.jpg"alt="Serach engine optimization"className="rounded-md m-10 w-40 h-40"/>
                 </motion.div>
                 <motion.div
                 initial={{opacity:0.2}}
                 whileInView={{opacity:1}}
                 transition={{duration:3}}
                 className="flex items-center">
-                <img src="src\assets\images\pexels-eva-bronzini-7661135.jpg"alt="Serach engine optimization"className="rounded-md m-10 w-40 h-40"/>
+                <img src="src\assets\images\adwords-793034_1280.jpg"alt="Serach engine optimization"className="rounded-md m-10 w-40 h-40"/>
                   <p className="">
                   Once the website design is finalized to your satisfaction
                   , we'll set it live upon your approval. This marks the beginning of our web traffic services journey.
