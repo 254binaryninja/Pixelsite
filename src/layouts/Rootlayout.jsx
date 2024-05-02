@@ -57,9 +57,8 @@ export default function RootLayout(){
           <div className="">
             <h2 class="text-2xl font-bold text-gray-50">Lets do coffee on us </h2>
 
-            <p class="mt-4 text-gray-50">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam
-              molestias.
+            <p class="m-4 text-gray-50">
+              Schedule a meeting with us and watch your digital dreams become a reality.
             </p>
           </div>
           < motion.div 
@@ -96,23 +95,23 @@ export default function RootLayout(){
 
           <ul class="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" class="text-cyan-50 transition hover:opacity-75"> Web Traffic </a>
+              <Link to="/Form" class="text-cyan-50 transition hover:opacity-75"> Web Traffic </Link>
             </li>
 
             <li>
-              <a href="#" class="text-cyan-50 transition hover:opacity-75"> Web Design </a>
+              <Link to="/Form" class="text-cyan-50 transition hover:opacity-75"> Web Design </Link>
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> App Development </a>
+              <Link to="/Form" class="text-gray-50 transition hover:opacity-75"> App Development </Link>
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> Marketing </a>
+              <Link to="/Form" class="text-gray-50 transition hover:opacity-75"> Marketing </Link>
             </li>
 
             <li>
-              <a href="#" class="text-gray-50 transition hover:opacity-75"> SEO Optimisation </a>
+              <Link to="/Form" class="text-gray-50 transition hover:opacity-75"> SEO Optimisation </Link>
             </li>
           </ul>
         </div>

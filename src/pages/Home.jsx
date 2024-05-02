@@ -97,17 +97,17 @@ Creating a fully functional website in this digital age has become one of the fa
            <div className=''>
             <div
             class=''> 
-            <Slider>
+            <Slider {...settings}>
                  <motion.div 
                   initial={{opacity:0.4}}
                   whileHover={{opacity:1}}
                   transition={{duration:3}}
-                 className='mt-10 grid place-items-center h-screen'>
+                 className='mt-10 grid place-items-center h-screen  mx-w-md mx-auto'>
                  <p className=''>
                    "Pixel Surge Designers exceeded my expectations with their exceptional service and creative solutions. They took the time to understand my vision and transformed it into a stunning website that perfectly represents my brand. Their attention to detail and responsiveness made the entire process smooth and enjoyable. I highly recommend them for anyone looking for top-notch web design and digital marketing expertise."
                  </p>  <div
                  
-                 classname=" flex flex-wrap mx-w-md mx-auto">
+                 classname=" flex flex-wrap">
                  <h4 className='mt-10 text-2xl text-green-400  '>Justus Oriya</h4><p className='text-xl'>Assistant Manager Lexus apartments </p></div></motion.div>
                 
            
@@ -116,7 +116,7 @@ Creating a fully functional website in this digital age has become one of the fa
             initial={{opacity:0.4}}
             whileHover={{opacity:1}}
             transition={{duration:3}}
-           className='mt-10 grid place-items-center h-screen'>
+           className='mt-10 grid place-items-center h-screen  mx-w-md mx-auto'>
                  <p className=''>
                    "Pixel Surge Designers is a reliable partner that consistently delivers outstanding results. From web traffic optimization to brand outreach, they have helped us navigate the complex world of digital marketing with ease. Their commitment to understanding our goals and tailoring solutions accordingly has made them an indispensable asset to our company. I look forward to continuing our successful collaboration with them."
                  </p>  <div
