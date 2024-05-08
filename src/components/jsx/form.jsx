@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { send } from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import { Link } from 'react-router-dom';
 import '../css/form.css';
 export default function Formweb (){
@@ -11,7 +11,7 @@ export default function Formweb (){
       const handleSubmit = (e)=> {
         e.preventDefault();
        // emailJS send service
-       send ('service_lzk7r1g','template_rmxhn3g',formData,'7iLgO1wg0Aw30EeKNyV7l')
+       emailjs.send ('service_lzk7r1g','template_rmxhn3g',formData,'7iLgO1wg0Aw30EeKNyV7l')
         .then((response)=> {
           console.log('Email sent succesfully',response)
           alert('Email sent succesfully')

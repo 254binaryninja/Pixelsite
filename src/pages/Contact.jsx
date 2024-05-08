@@ -1,4 +1,4 @@
-import { send } from "emailjs-com"
+import emailjs from "emailjs-com"
 import { useState } from "react"
 export default function Contact() {
     const [formData,setFormData] = useState ({
@@ -9,7 +9,7 @@ export default function Contact() {
       const handleSubmit = (e) => {
         e.preventDefault();
         //emailJS send service
-        send ('service_lzk7r1g','template_btxj0ad',formData,'7iLgO1wg0Aw30EeKNyV7l')
+        emailjs.send ('service_p1qgndk','template_btxj0ad',formData,'7iLgO1wg0Aw30EeKNyV7l')
           .then((response)=> {
             console.log('Email sent succesfully',response)
             alert('Message sent')
