@@ -11,7 +11,7 @@ export default function Formweb (){
       const handleSubmit = (e)=> {
         e.preventDefault();
        // emailJS send service
-       send ('serviceID','Template ID',formData,'userID')
+       send ('service_lzk7r1g','template_rmxhn3g',formData,'7iLgO1wg0Aw30EeKNyV7l')
         .then((response)=> {
           console.log('Email sent succesfully',response)
           alert('Email sent succesfully')

@@ -9,7 +9,7 @@ export default function Contact() {
       const handleSubmit = (e) => {
         e.preventDefault();
         //emailJS send service
-        send ('service ID','Template ID',formData,'user ID')
+        send ('service_lzk7r1g','template_btxj0ad',formData,'7iLgO1wg0Aw30EeKNyV7l')
           .then((response)=> {
             console.log('Email sent succesfully',response)
             alert('Message sent')
