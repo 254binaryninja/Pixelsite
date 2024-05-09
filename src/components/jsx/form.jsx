@@ -1,51 +1,50 @@
-import { useState } from 'react';
-import emailjs from 'emailjs-com';
+import { useRef } from 'react';
+
 import { Link } from 'react-router-dom';
 import '../css/form.css';
+import emailjs from "@emailjs/browser";
 export default function Formweb (){
-      const [formData,setFormData] = useState ({
-        email:'',
-        name:'',
-        place:'',
-      });
-      const handleSubmit = (e)=> {
+      const form = useRef();
+    const handleSubmit = (e) =>{
         e.preventDefault();
-       // emailJS send service
-       emailjs.send ('service_lzk7r1g','template_rmxhn3g',formData,'7iLgO1wg0Aw30EeKNyV7l')
-        .then((response)=> {
-          console.log('Email sent succesfully',response)
-          alert('Email sent succesfully')
-        })
-        .catch((error)=> {
-          console.error('Failed to send email',error)
-          alert('Failed to send email')
-        }) 
-      }
+
+        emailjs
+            .sendForm('service_tgkh3ui', 'template_rmxhn3g', form.current, {
+                publicKey: '8kylYyZWFh8coF2lJ',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                    alert('Message sent');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                    alert("Message not Sent")
+                },
+            );
+    }
+
+
     return(
          <>
-         <div class="form-container justify-center">
-      <form class="form" onSubmit={handleSubmit}>
+         <div className="form-container justify-center">
+      <form ref={form} className="form" onSubmit={handleSubmit}>
         
-        <div class="form-group">
-          <label for="email">Name</label>
-          <input name="name" id="name" type="text"
-          value={formData.name}
-          onChange={(e) => setFormData({ ...formData, name: e.target.value })}/>
+        <div className="form-group">
+          <label >Name</label>
+          <input name="name" id="name" type="text" />
         </div>
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input required="" name="email" id="email" type="text"
-          value={formData.email}
-           onChange={(e) => setFormData({ ...formData, email: e.target.value })}/>
+        <div className="form-group">
+          <label>Email</label>
+          <input required="" name="email" id="email" type="text"/>
         </div>
-        <div class="form-group">
-          <label for="textarea">How did you hear about us?</label>
-          <textarea required="" cols="50" rows="10" id="textarea" name="textarea"
-          value={formData.place}
-          onChange={(e) => setFormData({ ...formData,place: e.target.value })}
-          ></textarea>
+        <div className="form-group">
+          <label >How did you hear about us?</label>
+          <textarea required="" cols="50" rows="10" id="message" name="message"
+
+          />
         </div>
-        <button type="submit" class="form-submit-btn"><Link to ="/Services">Submit</Link></button>
+        <button type="submit" className="form-submit-btn"><Link to ="/Services">Submit</Link></button>
       </form>
     </div>
          
