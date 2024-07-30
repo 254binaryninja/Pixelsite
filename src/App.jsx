@@ -3,7 +3,7 @@ import {
   Route,
   createRoutesFromElements,
   RouterProvider} from 'react-router-dom'
-  import {useState,useEffect} from 'react'
+  
 //Pages
 import Home from './pages/Home'
 import Company from './pages/Company'
@@ -26,25 +26,25 @@ import Error from './pages/404error'
   createRoutesFromElements(
     <>
     <Route path = "/" element={<RootLayout/>}>
-        
+
       <Route index element = {<Home/>}/>
       <Route path = "/Company" element = {<Company/>}/>
       <Route path = "/Services" element = {<Services/>}/>
       <Route path = "/About"   element = {<About/>}/>
       <Route path = "/Marketing" element = {<Market/>}/>
-    
+
       <Route path = "/Teams"    element = {<Teams/>}/>
       <Route path = "/Process" element = {<Process/>}/>
       <Route path = "/Contact" element = {<Contact/>}/>
-      </Route> 
+      </Route>
       <Route path = "/Form" element = {<Formweb/>}/>
       <Route path = "/Web"  element = {<Web/>}/>
       <Route path = "*" element = {<Error/>}/>
-      </>  
+      </>
   )
  )
 function App() {
- 
+
     return (
     <RouterProvider router = {router}/>
   )
